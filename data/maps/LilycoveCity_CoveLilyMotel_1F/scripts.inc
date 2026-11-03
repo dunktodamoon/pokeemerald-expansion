@@ -103,7 +103,7 @@ LilycoveCity_CoveLilyMotel_1F_Text_HeardAquaHideoutBusted:
 	.string "Oh, sorry, sorry!\n"
 	.string "I was too involved in watching TV!\p"
 	.string "I heard that someone busted\n"
-	.string "the TEAM AQUA HIDEOUT.\p"
+	.string "the TEAM 碧波妖寨.\p"
 	.string "Thanks to that, we just booked\n"
 	.string "a reservation from a big group.\p"
 	.string "It was a company called… Uh…\n"

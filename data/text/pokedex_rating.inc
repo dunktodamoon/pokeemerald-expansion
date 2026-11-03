@@ -1,5 +1,5 @@
 gBirchDexRatingText_AreYouCurious::
-	.string "PROF. BIRCH: Ah, {PLAYER}{KUN}!\p"
+	.string "南极仙翁: Ah, {PLAYER}{KUN}!\p"
 	.string "Are you curious about how your\n"
 	.string "POKéDEX is coming along?$"
 
@@ -63,7 +63,7 @@ gBirchDexRatingText_LessThan110::
 
 gBirchDexRatingText_LessThan120::
 	.string "There might be POKéMON that can be\n"
-	.string "found using ROCK SMASH.$"
+	.string "found using 破石锤.$"
 
 gBirchDexRatingText_LessThan130::
 	.string "You should get some more POKéMON\n"
@@ -136,7 +136,7 @@ PokedexRating_Text_LessThan10::
 PokedexRating_Text_LessThan20::
 	.string "It looks as if you're getting on\n"
 	.string "the right track!\p"
-	.string "I've given one of my AIDES a FLASH\n"
+	.string "I've given one of my AIDES a 照妖镜\n"
 	.string "HM. Make sure you go get it!$"
 
 PokedexRating_Text_LessThan30::

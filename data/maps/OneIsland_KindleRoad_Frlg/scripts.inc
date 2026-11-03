@@ -50,7 +50,7 @@ OneIsland_KindleRoad_Text_GarrettDefeat::
 	.string "You're good, you!$"
 
 OneIsland_KindleRoad_Text_GarrettPostBattle::
-	.string "Instead of using SURF all the time,\n"
+	.string "Instead of using 分水诀 all the time,\n"
 	.string "you should swim some.$"
 
 OneIsland_KindleRoad_Text_TommyIntro::

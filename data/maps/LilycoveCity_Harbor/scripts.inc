@@ -559,7 +559,7 @@ LilycoveCity_Harbor_Text_SailAnotherTime:
 	.string "Please sail with us another time!$"
 
 LilycoveCity_Harbor_Text_SlateportItIs:
-	.string "SLATEPORT CITY it is, then!$"
+	.string "东海港 it is, then!$"
 
 LilycoveCity_Harbor_Text_BattleFrontierItIs:
 	.string "BATTLE FRONTIER it is, then!$"

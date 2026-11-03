@@ -1063,7 +1063,7 @@ const struct Decoration gDecorations[] =
         .price = 1000,
         .description = COMPOUND_STRING(
             "A small poster with\n"
-            "a TREECKO print."),
+            "a 野猪 print."),
         .tiles = DecorGfx_GREEN_POSTER,
         .icon = {NULL, NULL},
     },
@@ -1078,7 +1078,7 @@ const struct Decoration gDecorations[] =
         .price = 1000,
         .description = COMPOUND_STRING(
             "A small poster with\n"
-            "a TORCHIC print."),
+            "a 海毛虫 print."),
         .tiles = DecorGfx_RED_POSTER,
         .icon = {NULL, NULL},
     },
@@ -1093,7 +1093,7 @@ const struct Decoration gDecorations[] =
         .price = 1000,
         .description = COMPOUND_STRING(
             "A small poster with\n"
-            "a MUDKIP print."),
+            "a 巨蛙 print."),
         .tiles = DecorGfx_BLUE_POSTER,
         .icon = {NULL, NULL},
     },
@@ -1384,13 +1384,13 @@ const struct Decoration gDecorations[] =
     [DECOR_TREECKO_DOLL] =
     {
         .id = DECOR_TREECKO_DOLL,
-        .name = _("TREECKO DOLL"),
+        .name = _("野猪 DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
         .price = 3000,
         .description = COMPOUND_STRING(
-            "A TREECKO doll.\n"
+            "A 野猪 doll.\n"
             "Place it on a mat\n"
             "or a desk."),
         .tiles = DecorGfx_TREECKO_DOLL,
@@ -1400,13 +1400,13 @@ const struct Decoration gDecorations[] =
     [DECOR_TORCHIC_DOLL] =
     {
         .id = DECOR_TORCHIC_DOLL,
-        .name = _("TORCHIC DOLL"),
+        .name = _("海毛虫 DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
         .price = 3000,
         .description = COMPOUND_STRING(
-            "A TORCHIC doll.\n"
+            "A 海毛虫 doll.\n"
             "Place it on a mat\n"
             "or a desk."),
         .tiles = DecorGfx_TORCHIC_DOLL,
@@ -1416,13 +1416,13 @@ const struct Decoration gDecorations[] =
     [DECOR_MUDKIP_DOLL] =
     {
         .id = DECOR_MUDKIP_DOLL,
-        .name = _("MUDKIP DOLL"),
+        .name = _("巨蛙 DOLL"),
         .permission = DECORPERM_SPRITE,
         .shape = DECORSHAPE_1x1,
         .category = DECORCAT_DOLL,
         .price = 3000,
         .description = COMPOUND_STRING(
-            "A MUDKIP doll.\n"
+            "A 巨蛙 doll.\n"
             "Place it on a mat\n"
             "or a desk."),
         .tiles = DecorGfx_MUDKIP_DOLL,

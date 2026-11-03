@@ -103,7 +103,7 @@ Route20_Text_RogerDefeat::
 
 Route20_Text_RogerPostBattle::
 	.string "My birds are exhausted.\n"
-	.string "They can't FLY me back!$"
+	.string "They can't 御风符 me back!$"
 
 Route20_Text_NoraIntro::
 	.string "My boyfriend gave me big pearls.$"

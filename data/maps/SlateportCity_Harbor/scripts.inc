@@ -427,10 +427,10 @@ SlateportCity_Harbor_Text_AbnormalWeather:
 	.string "For a ship to sail safely, we need to\n"
 	.string "know about the weather!\p"
 	.string "Speaking of weather, I heard something\n"
-	.string "from a guy at the WEATHER INSTITUTE.\p"
+	.string "from a guy at the 观星台.\p"
 	.string "He was saying abnormal weather has\n"
 	.string "been reported all over the place!\p"
-	.string "You should visit the WEATHER INSTITUTE\n"
+	.string "You should visit the 观星台\n"
 	.string "and ask around!$"
 
 SlateportCity_Harbor_Text_SubTooSmallForMe:
@@ -446,7 +446,7 @@ SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum:
 	.string "the DEVON GOODS at the MUSEUM.$"
 
 SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
-	.string "ARCHIE: Oh?\n"
+	.string "东海龙王·敖广: Oh?\n"
 	.string "Not you again…\p"
 	.string "You are tenacious to track us here,\n"
 	.string "that much I will give you.\p"
@@ -474,9 +474,9 @@ SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
 	.string "Trying to catch a submarine…\n"
 	.string "It's impossible for most people.\p"
 	.string "You would need a POKéMON that knows\n"
-	.string "how to DIVE…\p"
+	.string "how to 入海珠…\p"
 	.string "Perhaps if you went out to\n"
-	.string "MOSSDEEP CITY…\p"
+	.string "玄机城…\p"
 	.string "A lot of divers live out there, so\n"
 	.string "someone might teach you…$"
 
@@ -484,15 +484,15 @@ SlateportCity_Harbor_Text_NeedDiveToCatchSub:
 	.string "CAPT. STERN: Trying to catch a\n"
 	.string "submarine… It's impossible.\p"
 	.string "You would need a POKéMON that knows\n"
-	.string "how to DIVE…\p"
+	.string "how to 入海珠…\p"
 	.string "Perhaps if you went out to\n"
-	.string "MOSSDEEP CITY…\p"
+	.string "玄机城…\p"
 	.string "A lot of divers live out there, so\n"
 	.string "someone might teach you…$"
 
 SlateportCity_Harbor_Text_WontBeLongBeforeWeFinishFerry:
 	.string "CAPT. STERN: Oh, yes.\n"
-	.string "MR. BRINEY came to our SHIPYARD.\p"
+	.string "老孙头 came to our SHIPYARD.\p"
 	.string "It won't be long now before we finish\n"
 	.string "making the ferry!$"
 
@@ -501,7 +501,7 @@ SlateportCity_Harbor_Text_FinishedMakingFerry:
 	.string "We finally finished making the ferry\n"
 	.string "S.S. TIDAL!\p"
 	.string "We couldn't have done it without\n"
-	.string "your friend MR. BRINEY.\p"
+	.string "your friend 老孙头.\p"
 	.string "Please go for a short cruise on it!$"
 
 SlateportCity_Harbor_Text_WouldYouTradeScanner:

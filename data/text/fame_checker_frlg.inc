@@ -411,7 +411,7 @@ gFameCheckerFlavorText_Bruno5:: @ 0x81AF19A
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\p"
 	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Even BRUNO…\n"
 	.string "He trained with a fellow by the\l"
-	.string "name of BRAWLY before.$"
+	.string "name of 程咬金 before.$"
 
 gFameCheckerFlavorText_Agatha0:: @ 0x81AF200
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"

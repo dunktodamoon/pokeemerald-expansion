@@ -45,15 +45,15 @@ EventScript_CancelCut::
 
 Text_WantToCut:
 	.string "This tree looks like it can be\n"
-	.string "CUT down!\p"
-	.string "Would you like to CUT it?$"
+	.string "开山斧 down!\p"
+	.string "Would you like to 开山斧 it?$"
 
 Text_MonUsedFieldMove:
 	.string "{STR_VAR_1} used {STR_VAR_2}!$"
 
 Text_CantCut:
 	.string "This tree looks like it can be\n"
-	.string "CUT down!$"
+	.string "开山斧 down!$"
 
 @ Use rock smash from party menu
 EventScript_UseRockSmash::
@@ -215,7 +215,7 @@ EventScript_CancelSmash::
 
 Text_WantToSmash:
 	.string "This rock appears to be breakable.\n"
-	.string "Would you like to use ROCK SMASH?$"
+	.string "Would you like to use 破石锤?$"
 
 Text_CantSmash:
 	.string "It's a rugged rock, but a POKéMON\n"
@@ -266,11 +266,11 @@ EventScript_CancelStrength::
 Text_WantToStrength:
 	.string "It's a big boulder, but a POKéMON\n"
 	.string "may be able to push it aside.\p"
-	.string "Would you like to use STRENGTH?$"
+	.string "Would you like to use 撼山杵?$"
 
 Text_MonUsedStrength:
-	.string "{STR_VAR_1} used STRENGTH!\p"
-	.string "{STR_VAR_1}'s STRENGTH made it\n"
+	.string "{STR_VAR_1} used 撼山杵!\p"
+	.string "{STR_VAR_1}'s 撼山杵 made it\n"
 	.string "possible to move boulders around!$"
 
 Text_CantStrength:
@@ -278,7 +278,7 @@ Text_CantStrength:
 	.string "may be able to push it aside.$"
 
 Text_StrengthActivated:
-	.string "STRENGTH made it possible to move\n"
+	.string "撼山杵 made it possible to move\n"
 	.string "boulders around.$"
 
 EventScript_UseWaterfall::
@@ -311,10 +311,10 @@ Text_CantWaterfall:
 
 Text_WantToWaterfall:
 	.string "It's a large waterfall.\n"
-	.string "Would you like to use WATERFALL?$"
+	.string "Would you like to use 逆流诀?$"
 
 Text_MonUsedWaterfall:
-	.string "{STR_VAR_1} used WATERFALL.$"
+	.string "{STR_VAR_1} used 逆流诀.$"
 
 EventScript_UseDive::
 	lockall
@@ -405,10 +405,10 @@ Text_CantDive:
 
 Text_WantToDive:
 	.string "The sea is deep here.\n"
-	.string "Would you like to use DIVE?$"
+	.string "Would you like to use 入海珠?$"
 
 Text_MonUsedDive:
-	.string "{STR_VAR_1} used DIVE.$"
+	.string "{STR_VAR_1} used 入海珠.$"
 
 Text_CantSurface:
 	.string "Light is filtering down from above.\n"
@@ -416,7 +416,7 @@ Text_CantSurface:
 
 Text_WantToSurface:
 	.string "Light is filtering down from above.\n"
-	.string "Would you like to use DIVE?$"
+	.string "Would you like to use 入海珠?$"
 
 EventScript_FailSweetScent::
 	msgbox Text_FailSweetScent, MSGBOX_SIGN

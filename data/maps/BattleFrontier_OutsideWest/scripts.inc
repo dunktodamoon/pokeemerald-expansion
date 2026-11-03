@@ -331,7 +331,7 @@ BattleFrontier_OutsideWest_Text_WhereWouldYouLikeToGo:
 	.string "And where would you like to go?$"
 
 BattleFrontier_OutsideWest_Text_SlateportItIs:
-	.string "SLATEPORT CITY it is, then!$"
+	.string "东海港 it is, then!$"
 
 BattleFrontier_OutsideWest_Text_LilycoveItIs:
 	.string "LILYCOVE CITY it is, then!$"

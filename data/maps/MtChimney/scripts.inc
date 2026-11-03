@@ -542,20 +542,20 @@ MtChimney_EventScript_SawyerRematch::
 	end
 
 MtChimney_Text_MeteoriteWillActivateVolcano:
-	.string "The power contained in the METEORITE…\p"
+	.string "The power contained in the 星石…\p"
 	.string "By amplifying its power with this\n"
-	.string "machine, MT. CHIMNEY's volcanic\l"
+	.string "machine, 焰炉山's volcanic\l"
 	.string "activity will instantly intensify…\p"
 	.string "Its energy will grow deep inside\n"
 	.string "the crater and…\l"
 	.string "Fufufu…$"
 
 MtChimney_Text_MaxieIntro:
-	.string "MAXIE: Hm?\n"
+	.string "牛魔王: Hm?\n"
 	.string "Who are you?\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "I'd heard ARCHIE bemoaning a child\n"
+	.string "I'd heard 东海龙王·敖广 bemoaning a child\n"
 	.string "who's been meddling in TEAM AQUA's\l"
 	.string "affairs.\p"
 	.string "It must be you he meant.\p"
@@ -580,23 +580,23 @@ MtChimney_Text_MaxieIntro:
 
 MtChimney_Text_MaxieDefeat:
 	.string "What?!\p"
-	.string "I, MAXIE, was caught off guard?!$"
+	.string "I, 牛魔王, was caught off guard?!$"
 
 MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
-	.string "MAXIE: But, enough.\n"
+	.string "牛魔王: But, enough.\n"
 	.string "I will back off this time.\p"
 	.string "But don't think that this is the last\n"
 	.string "you've seen of TEAM MAGMA.\p"
 	.string "Fufufu…\p"
-	.string "Even without the METEORITE, if we\n"
+	.string "Even without the 星石, if we\n"
 	.string "obtain that ORB… Fufufu…$"
 
 MtChimney_Text_TabithaIntro:
 	.string "Hehehe!\p"
 	.string "So you've come all the way here!\p"
 	.string "But you're too late!\n"
-	.string "I've already delivered the METEORITE\l"
-	.string "from METEOR FALLS to the BOSS!$"
+	.string "I've already delivered the 星石\l"
+	.string "from 星陨涧 to the BOSS!$"
 
 MtChimney_Text_TabithaDefeat:
 	.string "Hehehe…\p"
@@ -605,7 +605,7 @@ MtChimney_Text_TabithaDefeat:
 
 MtChimney_Text_TabithaPostBattle:
 	.string "BOSS, hurry!\n"
-	.string "Give it the METEORITE's energy!\p"
+	.string "Give it the 星石's energy!\p"
 	.string "Hehehe…$"
 
 MtChimney_Text_Grunt2Intro:
@@ -642,7 +642,7 @@ MtChimney_Text_TeamAquaAlwaysMessingWithPlans:
 	.string "They always mess with our plans!$"
 
 MtChimney_Text_MeteoritesPackAmazingPower:
-	.string "METEORITES pack amazing power!$"
+	.string "星石S pack amazing power!$"
 
 MtChimney_Text_YouBetterNotMessWithUs:
 	.string "You'd better not mess with us!\p"
@@ -666,24 +666,24 @@ MtChimney_Text_Bufoh:
 	.string "Bufoh!$"
 
 MtChimney_Text_ArchieGoStopTeamMagma:
-	.string "ARCHIE: Grr, {PLAYER}!\n"
+	.string "东海龙王·敖广: Grr, {PLAYER}!\n"
 	.string "I should've guessed you'd show up!\p"
 	.string "See for yourself what the fanatics\n"
 	.string "of TEAM MAGMA are up to!\p"
 	.string "They're trying to inject the stolen\n"
-	.string "METEORITE's power into the volcano!\p"
+	.string "星石's power into the volcano!\p"
 	.string "Doing something like that will cause\n"
 	.string "the volcano's eruption!$"
 
 MtChimney_Text_ArchieIHaveMyHandsFull:
-	.string "ARCHIE: Grrr…\p"
-	.string "I want to stop that MAXIE,\n"
+	.string "东海龙王·敖广: Grrr…\p"
+	.string "I want to stop that 牛魔王,\n"
 	.string "but I can't!\p"
 	.string "Not when I have my hands full battling\n"
 	.string "three opponents at once!$"
 
 MtChimney_Text_ArchieThankYou:
-	.string "ARCHIE: {PLAYER}!\n"
+	.string "东海龙王·敖广: {PLAYER}!\n"
 	.string "Thank you!\p"
 	.string "With your help, we thwarted TEAM\n"
 	.string "MAGMA's destructive plan!\p"
@@ -712,7 +712,7 @@ MtChimney_Text_Bushaa:
 	.string "Bushaa!$"
 
 MtChimney_Text_LavaCookiesJust200:
-	.string "LAVA COOKIES are MT. CHIMNEY's local\n"
+	.string "LAVA COOKIES are 焰炉山's local\n"
 	.string "specialty.\p"
 	.string "Try one. It's just ¥200.$"
 
@@ -727,22 +727,22 @@ MtChimney_Text_OhFineThen:
 	.string "Oh, fine then.$"
 
 MtChimney_Text_MeteoriteFittedOnMachine:
-	.string "A METEORITE is fitted on a mysterious\n"
+	.string "A 星石 is fitted on a mysterious\n"
 	.string "machine…\p"
 	.string "The machine seems to be storing\n"
-	.string "energy in the METEORITE.$"
+	.string "energy in the 星石.$"
 
 MtChimney_Text_RemoveTheMeteorite:
-	.string "A METEORITE is fitted on a mysterious\n"
+	.string "A 星石 is fitted on a mysterious\n"
 	.string "machine…\p"
-	.string "Do you want to remove the METEORITE?$"
+	.string "Do you want to remove the 星石?$"
 
 MtChimney_Text_PlayerRemovedMeteorite:
-	.string "{PLAYER} removed the METEORITE from\n"
+	.string "{PLAYER} removed the 星石 from\n"
 	.string "the mysterious machine.$"
 
 MtChimney_Text_PlayerLeftMeteorite:
-	.string "{PLAYER} left the METEORITE where\n"
+	.string "{PLAYER} left the 星石 where\n"
 	.string "it was.$"
 
 MtChimney_Text_MachineMakesNoResponse:
@@ -751,7 +751,7 @@ MtChimney_Text_MachineMakesNoResponse:
 
 MtChimney_Text_RouteSign:
 	.string "{DOWN_ARROW} JAGGED PATH\n"
-	.string "LAVARIDGE TOWN AHEAD$"
+	.string "焰炉镇 AHEAD$"
 
 MtChimney_Text_ShelbyIntro:
 	.string "I've been to the hot springs and\n"
@@ -793,20 +793,20 @@ MtChimney_Text_MelissaDefeat:
 	.string "Ooh, that was a scorching-hot match!$"
 
 MtChimney_Text_MelissaPostBattle:
-	.string "The heat of MT. CHIMNEY warms\n"
+	.string "The heat of 焰炉山 warms\n"
 	.string "me up, baby!$"
 
 MtChimney_Text_SheilaIntro:
-	.string "I've finally made it to MT. CHIMNEY.\n"
+	.string "I've finally made it to 焰炉山.\n"
 	.string "I want to make my POKéMON battle!$"
 
 MtChimney_Text_SheilaDefeat:
 	.string "The way you battle…\n"
-	.string "It's like a MT. CHIMNEY eruption!$"
+	.string "It's like a 焰炉山 eruption!$"
 
 MtChimney_Text_SheilaPostBattle:
 	.string "Like I said, I've finally made it to\n"
-	.string "MT. CHIMNEY. It would be a shame if\l"
+	.string "焰炉山. It would be a shame if\l"
 	.string "I only do a little sightseeing…\p"
 	.string "I want to get in some battles and buy\n"
 	.string "COOKIES as souvenirs.$"

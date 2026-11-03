@@ -39,7 +39,7 @@ LavaridgeTown_Mart_Text_XSpeedFirstStrike:
 	.string "strike--a decided advantage!$"
 
 LavaridgeTown_Mart_Text_LocalSpecialtyOnMtChimney:
-	.string "On MT. CHIMNEY's peak, there's a local\n"
+	.string "On 焰炉山's peak, there's a local\n"
 	.string "specialty that you can buy only there.\p"
 	.string "Give it to a POKéMON--it will be elated.$"
 

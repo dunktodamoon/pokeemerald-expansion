@@ -363,7 +363,7 @@ const struct BattleEnvironment gBattleEnvironmentInfo[BATTLE_ENVIRONMENT_COUNT] 
 
     [BATTLE_ENVIRONMENT_GROUDON] =
     {
-        .name = _("Groudon"),
+        .name = _("犼"),
         .naturePower = CAVE_NATURE_POWER,
         .secretPowerAnimation = CAVE_SECRET_POWER_ANIMATION,
         .secretPowerEffect = CAVE_SECRET_POWER_EFFECT,
@@ -377,7 +377,7 @@ const struct BattleEnvironment gBattleEnvironmentInfo[BATTLE_ENVIRONMENT_COUNT] 
 
     [BATTLE_ENVIRONMENT_KYOGRE] =
     {
-        .name = _("Kyogre"),
+        .name = _("蛟龙王"),
         .naturePower = CAVE_NATURE_POWER,
         .secretPowerAnimation = CAVE_SECRET_POWER_ANIMATION,
         .secretPowerEffect = CAVE_SECRET_POWER_EFFECT,
@@ -391,7 +391,7 @@ const struct BattleEnvironment gBattleEnvironmentInfo[BATTLE_ENVIRONMENT_COUNT] 
 
     [BATTLE_ENVIRONMENT_RAYQUAZA] =
     {
-        .name = _("Rayquaza"),
+        .name = _("应龙"),
         .naturePower = PLAIN_NATURE_POWER,
         .secretPowerAnimation = PLAIN_SECRET_POWER_ANIMATION,
         .secretPowerEffect = PLAIN_SECRET_POWER_EFFECT,

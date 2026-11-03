@@ -80,7 +80,7 @@ Route13_Text_PerryDefeat::
 
 Route13_Text_PerryPostBattle::
 	.string "I'm beat.\n"
-	.string "I guess I'll FLY home.$"
+	.string "I guess I'll 御风符 home.$"
 
 Route13_Text_LolaIntro::
 	.string "Sure, I'll play with you, sweetie.$"
