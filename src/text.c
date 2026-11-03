@@ -5,6 +5,7 @@
 #include "event_data.h"
 #include "field_name_box.h"
 #include "fonts.h"
+#include "data/fonts/chinese.h"
 #include "m4a.h"
 #include "main.h"
 #include "malloc.h"
@@ -2201,9 +2202,36 @@ u8 GetMenuCursorDimensionByFont(u8 fontId, u8 whichDimension)
     return sMenuCursorDimensions[fontId][whichDimension];
 }
 
+// F9 20..99 uses previously unassigned extra-symbol slots, in English mode.
+static bool32 IsChineseGlyph(u16 glyphId, bool32 isJapanese)
+{
+    return !isJapanese && glyphId >= CHINESE_GLYPH_FIRST
+        && glyphId < CHINESE_GLYPH_FIRST + CHINESE_GLYPH_COUNT;
+}
+
+static bool32 TryDecompressChineseGlyph(u16 glyphId, bool32 isJapanese)
+{
+    const u16 *glyphs;
+
+    if (!IsChineseGlyph(glyphId, isJapanese))
+        return FALSE;
+
+    glyphs = sChineseGlyphs[glyphId - CHINESE_GLYPH_FIRST];
+    DecompressGlyphTile(glyphs, gCurGlyph.gfxBufferTop);
+    DecompressGlyphTile(glyphs + 8, gCurGlyph.gfxBufferTop + 8);
+    DecompressGlyphTile(glyphs + 16, gCurGlyph.gfxBufferBottom);
+    DecompressGlyphTile(glyphs + 24, gCurGlyph.gfxBufferBottom + 8);
+    gCurGlyph.width = CHINESE_GLYPH_WIDTH;
+    gCurGlyph.height = 12;
+    return TRUE;
+}
+
 static void DecompressGlyph_Small(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
+
+    if (TryDecompressChineseGlyph(glyphId, isJapanese))
+        return;
 
     if (isJapanese)
     {
@@ -2237,6 +2265,9 @@ static void DecompressGlyph_Small(u16 glyphId, bool32 isJapanese)
 
 static u32 GetGlyphWidth_Small(u16 glyphId, bool32 isJapanese)
 {
+    if (IsChineseGlyph(glyphId, isJapanese))
+        return CHINESE_GLYPH_WIDTH;
+
     if (isJapanese == TRUE)
         return 8;
     else
@@ -2246,6 +2277,9 @@ static u32 GetGlyphWidth_Small(u16 glyphId, bool32 isJapanese)
 static void DecompressGlyph_Narrow(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
+
+    if (TryDecompressChineseGlyph(glyphId, isJapanese))
+        return;
 
     if (isJapanese == TRUE)
     {
@@ -2279,6 +2313,9 @@ static void DecompressGlyph_Narrow(u16 glyphId, bool32 isJapanese)
 
 static u32 GetGlyphWidth_Narrow(u16 glyphId, bool32 isJapanese)
 {
+    if (IsChineseGlyph(glyphId, isJapanese))
+        return CHINESE_GLYPH_WIDTH;
+
     if (isJapanese == TRUE)
         return 8;
     else
@@ -2288,6 +2325,9 @@ static u32 GetGlyphWidth_Narrow(u16 glyphId, bool32 isJapanese)
 static void DecompressGlyph_SmallNarrow(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
+
+    if (TryDecompressChineseGlyph(glyphId, isJapanese))
+        return;
 
     if (isJapanese == TRUE)
     {
@@ -2321,6 +2361,9 @@ static void DecompressGlyph_SmallNarrow(u16 glyphId, bool32 isJapanese)
 
 static u32 GetGlyphWidth_SmallNarrow(u16 glyphId, bool32 isJapanese)
 {
+    if (IsChineseGlyph(glyphId, isJapanese))
+        return CHINESE_GLYPH_WIDTH;
+
     if (isJapanese == TRUE)
         return 8;
     else
@@ -2330,6 +2373,9 @@ static u32 GetGlyphWidth_SmallNarrow(u16 glyphId, bool32 isJapanese)
 static void DecompressGlyph_Short(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
+
+    if (TryDecompressChineseGlyph(glyphId, isJapanese))
+        return;
 
     if (isJapanese == TRUE)
     {
@@ -2365,6 +2411,9 @@ static void DecompressGlyph_Short(u16 glyphId, bool32 isJapanese)
 
 static u32 GetGlyphWidth_Short(u16 glyphId, bool32 isJapanese)
 {
+    if (IsChineseGlyph(glyphId, isJapanese))
+        return CHINESE_GLYPH_WIDTH;
+
     if (isJapanese == TRUE)
         return gFontShortJapaneseGlyphWidths[glyphId];
     else
@@ -2374,6 +2423,9 @@ static u32 GetGlyphWidth_Short(u16 glyphId, bool32 isJapanese)
 static void DecompressGlyph_Normal(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
+
+    if (TryDecompressChineseGlyph(glyphId, isJapanese))
+        return;
 
     if (isJapanese == TRUE)
     {
@@ -2407,6 +2459,9 @@ static void DecompressGlyph_Normal(u16 glyphId, bool32 isJapanese)
 
 static u32 GetGlyphWidth_Normal(u16 glyphId, bool32 isJapanese)
 {
+    if (IsChineseGlyph(glyphId, isJapanese))
+        return CHINESE_GLYPH_WIDTH;
+
     if (isJapanese == TRUE)
         return 8;
     else
@@ -2427,6 +2482,9 @@ static void DecompressGlyph_Bold(u16 glyphId)
 static void DecompressGlyph_Narrower(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
+
+    if (TryDecompressChineseGlyph(glyphId, isJapanese))
+        return;
 
     if (isJapanese == TRUE)
     {
@@ -2460,6 +2518,9 @@ static void DecompressGlyph_Narrower(u16 glyphId, bool32 isJapanese)
 
 static u32 GetGlyphWidth_Narrower(u16 glyphId, bool32 isJapanese)
 {
+    if (IsChineseGlyph(glyphId, isJapanese))
+        return CHINESE_GLYPH_WIDTH;
+
     if (isJapanese == TRUE)
         return 8;
     else
@@ -2469,6 +2530,9 @@ static u32 GetGlyphWidth_Narrower(u16 glyphId, bool32 isJapanese)
 static void DecompressGlyph_SmallNarrower(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
+
+    if (TryDecompressChineseGlyph(glyphId, isJapanese))
+        return;
 
     if (isJapanese == TRUE)
     {
@@ -2502,6 +2566,9 @@ static void DecompressGlyph_SmallNarrower(u16 glyphId, bool32 isJapanese)
 
 static u32 GetGlyphWidth_SmallNarrower(u16 glyphId, bool32 isJapanese)
 {
+    if (IsChineseGlyph(glyphId, isJapanese))
+        return CHINESE_GLYPH_WIDTH;
+
     if (isJapanese == TRUE)
         return 8;
     else
@@ -2511,6 +2578,9 @@ static u32 GetGlyphWidth_SmallNarrower(u16 glyphId, bool32 isJapanese)
 static void DecompressGlyph_ShortNarrow(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
+
+    if (TryDecompressChineseGlyph(glyphId, isJapanese))
+        return;
 
     if (isJapanese == TRUE)
     {
@@ -2546,6 +2616,9 @@ static void DecompressGlyph_ShortNarrow(u16 glyphId, bool32 isJapanese)
 
 static u32 GetGlyphWidth_ShortNarrow(u16 glyphId, bool32 isJapanese)
 {
+    if (IsChineseGlyph(glyphId, isJapanese))
+        return CHINESE_GLYPH_WIDTH;
+
     if (isJapanese == TRUE)
         return gFontShortJapaneseGlyphWidths[glyphId];
     else
@@ -2555,6 +2628,9 @@ static u32 GetGlyphWidth_ShortNarrow(u16 glyphId, bool32 isJapanese)
 static void DecompressGlyph_ShortNarrower(u16 glyphId, bool32 isJapanese)
 {
     const u16 *glyphs;
+
+    if (TryDecompressChineseGlyph(glyphId, isJapanese))
+        return;
 
     if (isJapanese == TRUE)
     {
@@ -2590,6 +2666,9 @@ static void DecompressGlyph_ShortNarrower(u16 glyphId, bool32 isJapanese)
 
 static u32 GetGlyphWidth_ShortNarrower(u16 glyphId, bool32 isJapanese)
 {
+    if (IsChineseGlyph(glyphId, isJapanese))
+        return CHINESE_GLYPH_WIDTH;
+
     if (isJapanese == TRUE)
         return gFontShortJapaneseGlyphWidths[glyphId];
     else
