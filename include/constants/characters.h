@@ -173,8 +173,8 @@
 #define CHAR_o_DIAERESIS       0xF5
 #define CHAR_u_DIAERESIS       0xF6
 #define CHAR_DYNAMIC           0xF7
-#define CHAR_KEYPAD_ICON       0xF8
-#define CHAR_EXTRA_SYMBOL      0xF9
+#define CHAR_KEYPAD_ICON       0xF8 // 0x00..0x0C keypad; 0x20+ Chinese page 2
+#define CHAR_EXTRA_SYMBOL      0xF9 // 0x00..0x1A arrows, 0x20..0xCF Chinese, 0xD0..0xFE emoji
 #define CHAR_PROMPT_SCROLL     0xFA // waits for button press and scrolls dialog
 #define CHAR_PROMPT_CLEAR      0xFB // waits for button press and clears dialog
 #define EXT_CTRL_CODE_BEGIN    0xFC // extended control code

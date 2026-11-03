@@ -601,7 +601,8 @@ u8 *StringCopyN_Multibyte(u8 *dest, u8 *src, u32 n)
         else
         {
             *dest++ = *src++;
-            if (*(src - 1) == CHAR_EXTRA_SYMBOL)
+            // F9 and F8 are both two-byte leads (extra symbols, and keypad or Chinese page 2).
+            if (*(src - 1) == CHAR_EXTRA_SYMBOL || *(src - 1) == CHAR_KEYPAD_ICON)
                 *dest++ = *src++;
         }
     }
@@ -616,7 +617,7 @@ u32 StringLength_Multibyte(const u8 *str)
 
     while (*str != EOS)
     {
-        if (*str == CHAR_EXTRA_SYMBOL)
+        if (*str == CHAR_EXTRA_SYMBOL || *str == CHAR_KEYPAD_ICON)
             str++;
         str++;
         length++;
