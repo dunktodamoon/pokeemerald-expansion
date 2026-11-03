@@ -49,6 +49,7 @@
 #include "mystery_gift.h"
 #include "union_room_chat.h"
 #include "constants/map_groups.h"
+#include "constants/heal_locations.h"
 #include "constants/items.h"
 #include "difficulty.h"
 #include "follower_npc.h"
@@ -57,7 +58,7 @@ extern const u8 EventScript_ResetAllMapFlags[];
 extern const u8 EventScript_ResetAllMapFlagsFrlg[];
 
 static void ClearFrontierRecord(void);
-static void WarpToTruck(void);
+static void WarpToWushanStation(void);
 static void ResetMiniGamesRecords(void);
 static void ResetItemFlags(void);
 static void ResetDexNav(void);
@@ -133,13 +134,15 @@ static void ClearFrontierRecord(void)
     gSaveBlock2Ptr->frontier.opponentNames[1][0] = EOS;
 }
 
-static void WarpToTruck(void)
+static void WarpToWushanStation(void)
 {
     if (IS_FRLG)
         SetWarpDestination(MAP_GROUP(MAP_PALLET_TOWN_PLAYERS_HOUSE_2F), MAP_NUM(MAP_PALLET_TOWN_PLAYERS_HOUSE_2F), WARP_ID_NONE, 6, 6);
     else
-        SetWarpDestination(MAP_GROUP(MAP_INSIDE_OF_TRUCK), MAP_NUM(MAP_INSIDE_OF_TRUCK), WARP_ID_NONE, -1, -1);
+        SetWarpDestination(MAP_GROUP(MAP_WUSHAN_STATION), MAP_NUM(MAP_WUSHAN_STATION), WARP_ID_NONE, 7, 8);
     WarpIntoMap();
+    if (!IS_FRLG)
+        SetLastHealLocationWarp(HEAL_LOCATION_WUSHAN_STATION);
 }
 
 void Sav2_ClearSetDefault(void)
@@ -211,7 +214,7 @@ void NewGameInitData(void)
     ResetFanClub();
     ResetLotteryCorner();
     UpdateDailySeed();
-    WarpToTruck();
+    WarpToWushanStation();
     if (IS_FRLG)
         RunScriptImmediately(EventScript_ResetAllMapFlagsFrlg);
     else

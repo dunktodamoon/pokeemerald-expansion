@@ -1049,6 +1049,8 @@ gStdScripts_End::
 
 .endif
 
+	.include "data/maps/WushanStation/scripts.inc"
+	.include "data/maps/WushanOutskirts/scripts.inc"
 	.include "data/scripts/std_msgbox.inc"
 	.include "data/scripts/trainer_battle.inc"
 	.include "data/scripts/new_game.inc"

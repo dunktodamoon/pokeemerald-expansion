@@ -1091,7 +1091,14 @@ static void Task_HandleMainMenuAPressed(u8 taskId)
 
             gPlttBufferUnfaded[0] = RGB_BLACK;
             gPlttBufferFaded[0] = RGB_BLACK;
-            gTasks[taskId].func = Task_NewGameBirchSpeech_Init;
+            // Skip the Birch speech. CB2_NewGame warps to Wushan Station.
+            {
+                static const u8 sWushanPlayerName[] = _("GUEST");
+                gSaveBlock2Ptr->playerGender = MALE;
+                StringCopy_PlayerName(gSaveBlock2Ptr->playerName, sWushanPlayerName);
+            }
+            SetMainCallback2(CB2_NewGame);
+            DestroyTask(taskId);
             break;
         case ACTION_CONTINUE:
             gPlttBufferUnfaded[0] = RGB_BLACK;
