@@ -303,7 +303,7 @@ RustboroCity_PokemonSchool_Text_StudentsNotes:
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut:
 	.string "Hello? Didn't we meet before?\n"
-	.string "I think back in PETALBURG CITY.\p"
+	.string "I think back in 建邺外城.\p"
 	.string "Let me introduce myself.\n"
 	.string "My name's SCOTT.\p"
 	.string "I've been traveling everywhere in\n"
@@ -313,9 +313,9 @@ RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut:
 	.string "So, what brings you to this SCHOOL?\n"
 	.string "Are you a TRAINER, too?\p"
 	.string "The first thing you should do is to\n"
-	.string "have a POKéMON learn the move CUT.\p"
+	.string "have a POKéMON learn the move 开山斧.\p"
 	.string "If I remember correctly, someone in\n"
-	.string "this town has CUT.$"
+	.string "this town has 开山斧.$"
 
 RustboroCity_PokemonSchool_Text_StudentTalentLevelUnknown:
 	.string "SCOTT: Hmm…\p"
@@ -324,7 +324,7 @@ RustboroCity_PokemonSchool_Text_StudentTalentLevelUnknown:
 
 RustboroCity_PokemonSchool_Text_ScottStoneBadge:
 	.string "SCOTT: Oh, what's that?\p"
-	.string "It's a STONE BADGE, isn't it?\n"
+	.string "It's a 岩门令, isn't it?\n"
 	.string "That's pretty impressive, I'd say.\p"
 	.string "But, you know, I would've loved to see\n"
 	.string "you in battle.\p"
@@ -333,7 +333,7 @@ RustboroCity_PokemonSchool_Text_ScottStoneBadge:
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge:
 	.string "Hello? Didn't we meet before?\n"
-	.string "I think back in PETALBURG CITY.\p"
+	.string "I think back in 建邺外城.\p"
 	.string "Let me introduce myself.\n"
 	.string "My name's SCOTT.\p"
 	.string "I've been traveling everywhere in\n"
@@ -341,7 +341,7 @@ RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge:
 	.string "More specifically, I'm looking for\n"
 	.string "POKéMON battle experts.\p"
 	.string "Oh, what's that?\n"
-	.string "It's a STONE BADGE, isn't it?\p"
+	.string "It's a 岩门令, isn't it?\p"
 	.string "That's pretty impressive, I'd say, for\n"
 	.string "a starting TRAINER like yourself.\p"
 	.string "But, you know, I would've loved to see\n"

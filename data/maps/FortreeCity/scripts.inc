@@ -104,12 +104,12 @@ FortreeCity_Text_SomethingBlockingGym:
 
 FortreeCity_Text_ThisTimeIllBeatWinona:
 	.string "I've got my pride-and-joy POKéMON\n"
-	.string "with me. This time, I'll beat WINONA.$"
+	.string "with me. This time, I'll beat 金翅大鹏.$"
 
 FortreeCity_Text_TreesGrowByDrinkingRainwater:
 	.string "The ground absorbs rainwater, and\n"
 	.string "trees grow by drinking that water…\p"
-	.string "Our FORTREE CITY exists because\n"
+	.string "Our 云栖城 exists because\n"
 	.string "there's both water and soil.$"
 
 FortreeCity_Text_EveryoneHealthyAndLively:
@@ -135,22 +135,22 @@ FortreeCity_Text_SomethingUnseeable:
 
 FortreeCity_Text_UnseeableUseDevonScope:
 	.string "Something unseeable is in the way.\p"
-	.string "Want to use the DEVON SCOPE?$"
+	.string "Want to use the 照隐镜?$"
 
 FortreeCity_Text_UsedDevonScopePokemonFled:
-	.string "{PLAYER} used the DEVON SCOPE.\p"
+	.string "{PLAYER} used the 照隐镜.\p"
 	.string "An invisible POKéMON became completely\n"
 	.string "visible!\p"
 	.string "The startled POKéMON fled!$"
 
 FortreeCity_Text_CitySign:
-	.string "FORTREE CITY\n"
+	.string "云栖城\n"
 	.string "“The treetop city that frolics with\l"
 	.string "nature.”$"
 
 FortreeCity_Text_GymSign:
-	.string "FORTREE CITY POKéMON GYM\n"
-	.string "LEADER: WINONA\p"
+	.string "云栖城 POKéMON GYM\n"
+	.string "LEADER: 金翅大鹏\p"
 	.string "“The bird user taking flight into\n"
 	.string "the world.”$"
 

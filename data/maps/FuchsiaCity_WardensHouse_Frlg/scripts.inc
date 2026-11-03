@@ -99,12 +99,12 @@ FuchsiaCity_WardensHouse_Text_ThanksLassieGiveYouSomething::
 	.string "trouble.$"
 
 FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden::
-	.string "{PLAYER} received HM04\n"
+	.string "{PLAYER} received 撼山杵\n"
 	.string "from the WARDEN.$"
 
 FuchsiaCity_WardensHouse_Text_ExplainStrength::
-	.string "WARDEN: Inside HM04 you'll find\n"
-	.string "STRENGTH.\p"
+	.string "WARDEN: Inside 撼山杵 you'll find\n"
+	.string "撼山杵.\p"
 	.string "It lets POKéMON move boulders when\n"
 	.string "you're outside of battle.\p"
 	.string "Oh yes, did you find the SECRET\n"

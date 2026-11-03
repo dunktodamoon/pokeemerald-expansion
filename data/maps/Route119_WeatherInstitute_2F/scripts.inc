@@ -266,14 +266,14 @@ Route119_WeatherInstitute_2F_Text_ShellyPostBattle:
 Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy:
 	.string "We have a situation here!\p"
 	.string "A TEAM MAGMA mob just passed\n"
-	.string "the WEATHER INSTITUTE.\p"
+	.string "the 观星台.\p"
 	.string "They appear to be headed for\n"
-	.string "MT. PYRE!$"
+	.string "祭魂山!$"
 
 Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre:
 	.string "What?!\p"
 	.string "We can't waste any more time here!\n"
-	.string "We have to hurry to MT. PYRE, too!\p"
+	.string "We have to hurry to 祭魂山, too!\p"
 	.string "Ahahahaha!\n"
 	.string "TEAM MAGMA, just you wait!$"
 
@@ -289,7 +289,7 @@ Route119_WeatherInstitute_2F_Text_NoRoomForPokemon:
 	.string "for this POKéMON.$"
 
 Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform:
-	.string "{PLAYER} received CASTFORM!$"
+	.string "{PLAYER} received 如意仙子!$"
 
 Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather:
 	.string "That POKéMON changes shape according\n"

@@ -182,7 +182,7 @@ static const struct MatchCallStructNPC sMrStoneMatchCallHeader =
     .mapSec = MAPSEC_RUSTBORO_CITY,
     .flag = 0xFFFF,
     .desc = COMPOUND_STRING("DEVON PRES"),
-    .name = COMPOUND_STRING("MR. STONE"),
+    .name = COMPOUND_STRING("李善人"),
     .textData = (const match_call_text_data_t[]) {
         { MatchCall_Text_MrStone1,  ALWAYS_AVAILABLE,                    FLAG_ENABLE_MR_STONE_POKENAV },
         { MatchCall_Text_MrStone2,  FLAG_ENABLE_MR_STONE_POKENAV,        NO_FLAG_TO_SET },
@@ -206,7 +206,7 @@ static const struct MatchCallStructTrainer sNormanMatchCallHeader =
     .flag = FLAG_ENABLE_NORMAN_MATCH_CALL,
     .rematchTableIdx = REMATCH_NORMAN,
     .desc = COMPOUND_STRING("RELIABLE ONE"),
-    .name = COMPOUND_STRING("DAD"),
+    .name = COMPOUND_STRING("镇元大仙"),
     .textData = (const match_call_text_data_t[]) {
         { MatchCall_Text_Norman1,                  FLAG_ENABLE_NORMAN_MATCH_CALL, NO_FLAG_TO_SET },
         { MatchCall_Text_Norman2,                  FLAG_DEFEATED_DEWFORD_GYM,     NO_FLAG_TO_SET },
@@ -227,7 +227,7 @@ static const struct MatchCallBirch sProfBirchMatchCallHeader =
     .mapSec = 0,
     .flag = FLAG_ENABLE_PROF_BIRCH_MATCH_CALL,
     .desc = COMPOUND_STRING("{PKMN} PROF."),
-    .name = COMPOUND_STRING("PROF. BIRCH")
+    .name = COMPOUND_STRING("南极仙翁")
 };
 
 static const match_call_text_data_t sMomTextScripts[] = {
@@ -243,7 +243,7 @@ static const struct MatchCallStructNPC sMomMatchCallHeader =
     .mapSec = MAPSEC_LITTLEROOT_TOWN,
     .flag = FLAG_ENABLE_MOM_MATCH_CALL,
     .desc = COMPOUND_STRING("CALM & KIND"),
-    .name = COMPOUND_STRING("MOM"),
+    .name = COMPOUND_STRING("王大嫂"),
     .textData = (const match_call_text_data_t[]) {
         { MatchCall_Text_Mom1, ALWAYS_AVAILABLE,            NO_FLAG_TO_SET },
         { MatchCall_Text_Mom2, FLAG_DEFEATED_PETALBURG_GYM, NO_FLAG_TO_SET },
@@ -258,7 +258,7 @@ static const struct MatchCallStructNPC sStevenMatchCallHeader =
     .mapSec = MAPSEC_NONE,
     .flag = FLAG_REGISTERED_STEVEN_POKENAV,
     .desc = COMPOUND_STRING("HARD AS ROCK"),
-    .name = COMPOUND_STRING("STEVEN"),
+    .name = COMPOUND_STRING("杨戬"),
     .textData = (const match_call_text_data_t[]) {
         { MatchCall_Text_Steven1, ALWAYS_AVAILABLE,                    NO_FLAG_TO_SET },
         { MatchCall_Text_Steven2, FLAG_RUSTURF_TUNNEL_OPENED,          NO_FLAG_TO_SET },
@@ -490,7 +490,7 @@ static const struct MatchCallStructTrainer sJuanMatchCallHeader =
     }
 };
 
-static const u8 gText_EliteFourMatchCallDesc[] = _("ELITE FOUR");
+static const u8 gText_EliteFourMatchCallDesc[] = _("四天王");
 
 static const struct MatchCallStructTrainer sSidneyMatchCallHeader =
 {

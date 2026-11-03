@@ -15,9 +15,9 @@ SSAnne_2F_Room3_Text_SeenMonsFerryPeople::
 
 SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown::
 	.string "Small trees can be chopped down\n"
-	.string "using the move CUT.\p"
+	.string "using the move 开山斧.\p"
 	.string "But remember this!\n"
-	.string "CUT is an HM technique.\p"
+	.string "开山斧 is an HM technique.\p"
 	.string "Once learned, it is not so easily\n"
 	.string "discarded.$"
 

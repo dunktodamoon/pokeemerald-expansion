@@ -435,16 +435,16 @@ CeruleanCity_Text_TrainerLifeIsToughIsntIt::
 	.string "It's a tough life, isn't it?$"
 
 CeruleanCity_Text_YouCanCutDownSmallTrees::
-	.string "Did you know that you can CUT down\n"
+	.string "Did you know that you can 开山斧 down\n"
 	.string "small trees?\p"
 	.string "Even that small tree in front of\n"
-	.string "the shop can be CUT down.\p"
+	.string "the shop can be 开山斧 down.\p"
 	.string "I think there's a way around it,\n"
 	.string "though.$"
 
 CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree::
 	.string "If that SLOWBRO wasn't there, you\n"
-	.string "could CUT down the small tree.\p"
+	.string "could 开山斧 down the small tree.\p"
 	.string "That way, you could get to the\n"
 	.string "other side.\p"
 	.string "I think there's a way around it,\n"

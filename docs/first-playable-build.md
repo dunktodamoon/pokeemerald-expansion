@@ -1,6 +1,6 @@
 # First playable build
 
-English placeholder opening for Wushan Station and the Wushan Outskirts. The approved Chinese lines are not in the ROM. `charmap.txt` is unchanged. A separate track owns the Chinese font.
+English placeholder opening for Wushan Station and the Wushan Outskirts. Approved Chinese display names are in the string sources (雾杉驿站, 南极仙翁, 野猪 / 海毛虫 / 巨蛙). `charmap.txt` is unchanged, so those glyphs do not assemble until the separate Chinese-font track lands.
 
 ## How to build
 
@@ -75,7 +75,7 @@ Palette tags are the ones already bound to each graphic.
 
 | NPC | Graphic | Palette tag | Palette slot |
 |---|---|---|---|
-| Lan (守林人·岚) | `OBJ_EVENT_GFX_SCIENTIST_1` | `OBJ_EVENT_PAL_TAG_NPC_3` (`0x1105`) | `PALSLOT_NPC_3` |
+| 南极仙翁 (speaker was Lan) | `OBJ_EVENT_GFX_SCIENTIST_1` | `OBJ_EVENT_PAL_TAG_NPC_3` (`0x1105`) | `PALSLOT_NPC_3` |
 | You (驿站记录员·柚) | `OBJ_EVENT_GFX_WOMAN_1` | `OBJ_EVENT_PAL_TAG_NPC_1` (`0x1103`) | `PALSLOT_NPC_1` |
 | Doudou (豆豆) | `OBJ_EVENT_GFX_LITTLE_BOY` | `OBJ_EVENT_PAL_TAG_NPC_4` (`0x1106`) | `PALSLOT_NPC_4` |
 | Guard (门口守卫) | `OBJ_EVENT_GFX_BLACK_BELT` | `OBJ_EVENT_PAL_TAG_NPC_3` (`0x1105`) | `PALSLOT_NPC_3` |

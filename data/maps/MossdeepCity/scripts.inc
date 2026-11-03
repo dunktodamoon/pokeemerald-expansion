@@ -304,7 +304,7 @@ MossdeepCity_Movement_ScottExitEast:
 	step_end
 
 MossdeepCity_Text_WantKingsRockStevenGaveMe:
-	.string "I got this from STEVEN, but I don't\n"
+	.string "I got this from 杨戬, but I don't\n"
 	.string "know what it's good for.\p"
 	.string "I think it's called KING'S ROCK.\n"
 	.string "Do you want it?$"
@@ -313,10 +313,10 @@ MossdeepCity_Text_YouCanKeepIt:
 	.string "Why would you want it?\n"
 	.string "You're weird.\p"
 	.string "You can keep it, but keep it a secret\n"
-	.string "from STEVEN.$"
+	.string "from 杨戬.$"
 
 MossdeepCity_Text_StevensHouseOverThere:
-	.string "STEVEN's house is right over there!$"
+	.string "杨戬's house is right over there!$"
 
 MossdeepCity_Text_WhatToDoWithWeirdRock:
 	.string "Yeah, you think so, too! What are you\n"
@@ -331,13 +331,13 @@ MossdeepCity_Text_WailmerWatching:
 	.string "WAILMER watching!$"
 
 MossdeepCity_Text_SpaceCenterReceivedLetter:
-	.string "The island's SPACE CENTER has been\n"
+	.string "The island's 天机阁 has been\n"
 	.string "launching huge rockets.\p"
 	.string "There's been some kind of an uproar\n"
 	.string "over a letter they received recently.$"
 
 MossdeepCity_Text_SpaceCenterLaunchingRockets:
-	.string "The island's SPACE CENTER has been\n"
+	.string "The island's 天机阁 has been\n"
 	.string "launching huge rockets.$"
 
 MossdeepCity_Text_MossdeepTargetedByMagma:
@@ -348,7 +348,7 @@ MossdeepCity_Text_MossdeepTargetedByMagma:
 	.string "But MOSSDEEP here's been targeted\n"
 	.string "by that TEAM MAGMA.\p"
 	.string "If you want to know what they're up to,\n"
-	.string "go visit the SPACE CENTER.$"
+	.string "go visit the 天机阁.$"
 
 MossdeepCity_Text_FeelReliefOnLand:
 	.string "I'm a SAILOR, so the sea's obviously\n"
@@ -373,13 +373,13 @@ MossdeepCity_Text_LifeNeedsSeaToLive:
 MossdeepCity_Text_SurfExhilarating:
 	.string "A voyage on a ship is fine.\p"
 	.string "But crossing the sea with POKéMON\n"
-	.string "using SURF…\p"
+	.string "using 分水诀…\p"
 	.string "Now that's an exhilarating trip!\n"
 	.string "Wouldn't you agree, youngster?$"
 
 MossdeepCity_Text_SpecialSpaceCenterRock:
 	.string "This rock has a special meaning to\n"
-	.string "the people at the SPACE CENTER.\p"
+	.string "the people at the 天机阁.\p"
 	.string "They put it here as their wish for\n"
 	.string "their rockets to fly safely.\p"
 	.string "When you make a wish, what do you use?\n"
@@ -391,16 +391,16 @@ MossdeepCity_Text_ItsAWhiteRock:
 	.string "It's a white rock.$"
 
 MossdeepCity_Text_GymSign:
-	.string "MOSSDEEP CITY POKéMON GYM\n"
-	.string "LEADERS: LIZA & TATE\p"
+	.string "玄机城 POKéMON GYM\n"
+	.string "LEADERS: 木吒 & 金吒\p"
 	.string "“The mystic combination!”$"
 
 MossdeepCity_Text_CitySign:
-	.string "MOSSDEEP CITY\n"
+	.string "玄机城\n"
 	.string "“Our slogan: Cherish POKéMON!”$"
 
 MossdeepCity_Text_SpaceCenterSign:
-	.string "MOSSDEEP SPACE CENTER\n"
+	.string "天机阁\n"
 	.string "“The closest place to space.”$"
 
 MossdeepCity_Text_ScottSomethingWrongWithTown:
@@ -412,7 +412,7 @@ MossdeepCity_Text_ScottSomethingWrongWithTown:
 	.string "But there's something wrong about\n"
 	.string "this town.\p"
 	.string "People are going on about a warning\n"
-	.string "letter and the SPACE CENTER…\p"
+	.string "letter and the 天机阁…\p"
 	.string "I don't think it concerns me in any\n"
 	.string "way, though.$"
 
@@ -424,5 +424,5 @@ MossdeepCity_Text_SootopolisNewGymLeader:
 	.string "I think the GYM there had a new\n"
 	.string "LEADER come in.\p"
 	.string "People tell me the new LEADER once\n"
-	.string "mentored WALLACE.$"
+	.string "mentored 蚩尤.$"
 

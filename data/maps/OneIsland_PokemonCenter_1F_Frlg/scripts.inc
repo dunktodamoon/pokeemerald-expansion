@@ -624,10 +624,10 @@ OneIsland_PokemonCenter_1F_Text_CanYouDeliverThisMeteoritePlayer::
 	.string "We keep in touch, being fellow\n"
 	.string "maniacs.\p"
 	.string "So, can I get you to deliver this\n"
-	.string "METEORITE to him?$"
+	.string "星石 to him?$"
 
 OneIsland_PokemonCenter_1F_Text_AcceptedMeteoriteFromBill::
-	.string "{PLAYER} accepted the METEORITE\n"
+	.string "{PLAYER} accepted the 星石\n"
 	.string "from BILL.$"
 
 OneIsland_PokemonCenter_1F_Text_CelioPleaseTakeThis::

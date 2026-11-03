@@ -459,6 +459,7 @@ RustboroCity_EventScript_DevonEmployee1::
 	lock
 	faceplayer
 	goto_if_set FLAG_RECOVERED_DEVON_GOODS, RustboroCity_EventScript_ReturnGoodsSpokeToEmployee
+	setspeaker RustboroCity_Text_NameMaQuanyou
 	msgbox RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel, MSGBOX_DEFAULT
 	release
 	end
@@ -501,6 +502,7 @@ RustboroCity_EventScript_EmployeeAskToGetGoods::
 	setflag FLAG_INTERACTED_WITH_DEVON_EMPLOYEE_GOODS_STOLEN
 	setvar VAR_RUSTBORO_CITY_STATE, 3
 	copyobjectxytoperm LOCALID_RUSTBORO_DEVON_EMPLOYEE
+	setspeaker RustboroCity_Text_NameMaQuanyou
 	msgbox RustboroCity_Text_HelpMeIWasRobbed, MSGBOX_DEFAULT
 	releaseall
 	end
@@ -590,9 +592,11 @@ RustboroCity_EventScript_ReturnGoods::
 	call_if_eq VAR_TEMP_1, 2, RustboroCity_EventScript_EmployeeFacePlayerDown2
 	call_if_eq VAR_TEMP_1, 3, RustboroCity_EventScript_EmployeeApproachPlayerDown2
 	call_if_eq VAR_TEMP_1, 4, RustboroCity_EventScript_EmployeeFacePlayerRight
+	setspeaker RustboroCity_Text_NameMaQuanyou
 	msgbox RustboroCity_Text_YouGotItThankYou, MSGBOX_DEFAULT
 	giveitem ITEM_GREAT_BALL
 	call_if_eq VAR_RESULT, FALSE, RustboroCity_EventScript_BagFull
+	setspeaker RustboroCity_Text_NameMaQuanyou
 	msgbox RustboroCity_Text_PleaseComeWithMe, MSGBOX_DEFAULT
 	closemessage
 	setflag FLAG_RETURNED_DEVON_GOODS
@@ -605,6 +609,7 @@ RustboroCity_EventScript_ReturnGoods::
 	end
 
 RustboroCity_EventScript_BagFull::
+	setspeaker RustboroCity_Text_NameMaQuanyou
 	msgbox RustboroCity_Text_YoureLoadedWithItems, MSGBOX_DEFAULT
 	return
 
@@ -1049,13 +1054,13 @@ RustboroCity_Text_GymLeaderIsntEasyWithFire:
 	.string "well against ROCK-type POKéMON…$"
 
 RustboroCity_Text_MrBrineyWalksInTheTunnel:
-	.string "The old sailor MR. BRINEY lives in\n"
+	.string "The old sailor 老孙头 lives in\n"
 	.string "a cottage by the sea.\p"
 	.string "He goes for walks in the tunnel every\n"
 	.string "so often.$"
 
 RustboroCity_Text_MrBrineyLovesPeeko:
-	.string "The old sailor MR. BRINEY lives in\n"
+	.string "The old sailor 老孙头 lives in\n"
 	.string "a cottage by the sea.\p"
 	.string "He said he was going shopping in\n"
 	.string "SLATEPORT for his pet, PEEKO.\p"
@@ -1108,6 +1113,9 @@ RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel:
 	.string "That shady character, I think he took\n"
 	.string "off towards the tunnel over there.$"
 
+RustboroCity_Text_NameMaQuanyou:
+	.string "马全有$"
+
 RustboroCity_Text_YouGotItThankYou:
 	.string "Oh! How did it go?\n"
 	.string "The DEVON GOODS?\p"
@@ -1126,7 +1134,7 @@ RustboroCity_Text_PleaseComeWithMe:
 	.string "Please come with me!$"
 
 RustboroCity_Text_MayHiLetsRegister:
-	.string "MAY: Oh, hi, {PLAYER}{KUN}!\p"
+	.string "剑侠客: Oh, hi, {PLAYER}{KUN}!\p"
 	.string "You had a MATCH CALL feature put\n"
 	.string "on your POKéNAV!\p"
 	.string "Let's register each other so we can\n"
@@ -1134,12 +1142,12 @@ RustboroCity_Text_MayHiLetsRegister:
 	.string "… … … … … …$"
 
 RustboroCity_Text_RegisteredMay:
-	.string "Registered MAY\n"
+	.string "Registered 剑侠客\n"
 	.string "in the POKéNAV.$"
 
 RustboroCity_Text_MayPassedBrineyWantToBattle:
-	.string "MAY: Oh, by the way, I passed\n"
-	.string "MR. BRINEY in PETALBURG WOODS.\p"
+	.string "剑侠客: Oh, by the way, I passed\n"
+	.string "老孙头 in PETALBURG WOODS.\p"
 	.string "I guess he's on his way home to his\n"
 	.string "cottage by the sea.\p"
 	.string "How's your POKéDEX coming along,\n"
@@ -1148,17 +1156,17 @@ RustboroCity_Text_MayPassedBrineyWantToBattle:
 	.string "How about a little battle?$"
 
 RustboroCity_Text_MayOhHaventRaisedPokemonEnough:
-	.string "MAY: Oh, what's the matter?\p"
+	.string "剑侠客: Oh, what's the matter?\p"
 	.string "Haven't you caught or raised your\n"
 	.string "POKéMON very much?\p"
 	.string "That's not very good for a TRAINER!$"
 
 RustboroCity_Text_MayWantToBattle:
-	.string "MAY: So, what do you think?\n"
+	.string "剑侠客: So, what do you think?\n"
 	.string "How about a little battle here?$"
 
 RustboroCity_Text_MayImNotGoingToLose:
-	.string "MAY: You just became a TRAINER,\n"
+	.string "剑侠客: You just became a TRAINER,\n"
 	.string "{PLAYER}{KUN}. I'm not going to lose!$"
 
 RustboroCity_Text_MayDefeat:
@@ -1166,14 +1174,14 @@ RustboroCity_Text_MayDefeat:
 	.string "You're better than I expected!$"
 
 RustboroCity_Text_MayMrBrineyHint:
-	.string "MAY: Oh, by the way, MR. BRINEY, who\n"
+	.string "剑侠客: Oh, by the way, 老孙头, who\n"
 	.string "I just passed…\p"
 	.string "{PLAYER}{KUN}, you just moved here so you\n"
-	.string "might not know this, but MR. BRINEY\l"
+	.string "might not know this, but 老孙头\l"
 	.string "was once a revered seafarer.$"
 
 RustboroCity_Text_BrendanHiLetsRegister:
-	.string "BRENDAN: Oh, hey, {PLAYER}!\p"
+	.string "剑侠客: Oh, hey, {PLAYER}!\p"
 	.string "You had a MATCH CALL feature put\n"
 	.string "on your POKéNAV! Cool!\p"
 	.string "Let's register each other so we can\n"
@@ -1181,12 +1189,12 @@ RustboroCity_Text_BrendanHiLetsRegister:
 	.string "… … … … … …$"
 
 RustboroCity_Text_RegisteredBrendan:
-	.string "Registered BRENDAN\n"
+	.string "Registered 剑侠客\n"
 	.string "in the POKéNAV.$"
 
 RustboroCity_Text_BrendanPassedBrineyWantToBattle:
-	.string "BRENDAN: By the way, {PLAYER}, I walked\n"
-	.string "by MR. BRINEY in PETALBURG WOODS.\p"
+	.string "剑侠客: By the way, {PLAYER}, I walked\n"
+	.string "by 老孙头 in PETALBURG WOODS.\p"
 	.string "I bet he was on his way home to his\n"
 	.string "cottage by the sea.\p"
 	.string "{PLAYER}, how's your POKéDEX?\n"
@@ -1196,15 +1204,15 @@ RustboroCity_Text_BrendanPassedBrineyWantToBattle:
 	.string "far you've progressed?$"
 
 RustboroCity_Text_BrendanNoConfidenceInPokemon:
-	.string "BRENDAN: What's the matter? Don't have\n"
+	.string "剑侠客: What's the matter? Don't have\n"
 	.string "any confidence in your POKéMON?$"
 
 RustboroCity_Text_BrendanWantToBattle:
-	.string "BRENDAN: What's up?\n"
+	.string "剑侠客: What's up?\n"
 	.string "Want to have a battle with me?$"
 
 RustboroCity_Text_BrendanIWontGoEasy:
-	.string "BRENDAN: I know you just became\n"
+	.string "剑侠客: I know you just became\n"
 	.string "a TRAINER, but I won't go easy!$"
 
 RustboroCity_Text_BrendanDefeat:
@@ -1212,11 +1220,11 @@ RustboroCity_Text_BrendanDefeat:
 	.string "You're pretty good.$"
 
 RustboroCity_Text_BrendanMrBrineyHint:
-	.string "BRENDAN: By the way, you know\n"
-	.string "MR. BRINEY? The guy I just passed?\p"
+	.string "剑侠客: By the way, you know\n"
+	.string "老孙头? The guy I just passed?\p"
 	.string "I bet you didn't know this, since you\n"
 	.string "just moved here, {PLAYER}, but\l"
-	.string "MR. BRINEY was once a great sailor.$"
+	.string "老孙头 was once a great sailor.$"
 
 RustboroCity_Text_TunnelNearingCompletion:
 	.string "“Timesaving tunnel nearing\n"
@@ -1231,8 +1239,8 @@ RustboroCity_Text_DevonCorpSign:
 	.string "it all.”$"
 
 RustboroCity_Text_GymSign:
-	.string "RUSTBORO CITY POKéMON GYM\n"
-	.string "LEADER: ROXANNE\p"
+	.string "石鼓镇 POKéMON GYM\n"
+	.string "LEADER: 巨灵神\p"
 	.string "“The ROCK-loving honors student!”$"
 
 RustboroCity_Text_DevonCorpBranchOfficeSign:
@@ -1241,7 +1249,7 @@ RustboroCity_Text_DevonCorpBranchOfficeSign:
 	.string "and authorized personnel.”$"
 
 RustboroCity_Text_CitySign:
-	.string "RUSTBORO CITY\p"
+	.string "石鼓镇\p"
 	.string "“The city probing the integration of\n"
 	.string "nature and science.”$"
 

@@ -285,7 +285,7 @@ DewfordTown_Gym_EventScript_GymStatue::
 DewfordTown_Gym_Text_GymGuideAdvice:
 	.string "Hey, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
-	.string "DEWFORD's GYM LEADER BRAWLY commands\n"
+	.string "DEWFORD's GYM LEADER 程咬金 commands\n"
 	.string "FIGHTING-type POKéMON.\p"
 	.string "Going against him with NORMAL-type\n"
 	.string "POKéMON is asking for trouble.\p"
@@ -314,7 +314,7 @@ DewfordTown_Gym_Text_TakaoPostBattle:
 	.string "Your technique is commendable!$"
 
 DewfordTown_Gym_Text_JocelynIntro:
-	.string "There's no need for BRAWLY to be\n"
+	.string "There's no need for 程咬金 to be\n"
 	.string "involved!\p"
 	.string "I'll crush you!$"
 
@@ -341,7 +341,7 @@ DewfordTown_Gym_Text_LauraPostBattle:
 	.string "I battle in the dark to make my heart\n"
 	.string "stronger.\p"
 	.string "But because it's so dark, I can never\n"
-	.string "see BRAWLY's face…$"
+	.string "see 程咬金's face…$"
 
 DewfordTown_Gym_Text_LilithIntro:
 	.string "Ufufu…\n"
@@ -380,7 +380,7 @@ DewfordTown_Gym_Text_CristianPostBattle:
 	.string "Go after that BADGE!$"
 
 DewfordTown_Gym_Text_BrawlyIntro:
-	.string "I'm BRAWLY!\n"
+	.string "I'm 程咬金!\n"
 	.string "DEWFORD's GYM LEADER!\p"
 	.string "I've been churned in the rough waves\n"
 	.string "of these parts, and I've grown tough\l"
@@ -396,15 +396,15 @@ DewfordTown_Gym_Text_BrawlyDefeat:
 	.string "Take this GYM BADGE!$"
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge:
-	.string "{PLAYER} received the KNUCKLE BADGE\n"
-	.string "from BRAWLY.$"
+	.string "{PLAYER} received the 演武令\n"
+	.string "from 程咬金.$"
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
-	.string "The KNUCKLE BADGE makes all POKéMON\n"
+	.string "The 演武令 makes all POKéMON\n"
 	.string "up to Level 30, even those you get in\l"
 	.string "trades, obey without question.\p"
 	.string "And, you'll be able to use the HM move\n"
-	.string "FLASH outside of battle.\p"
+	.string "照妖镜 outside of battle.\p"
 	.string "If you'd like, use this TECHNICAL\n"
 	.string "MACHINE, too.$"
 
@@ -415,7 +415,7 @@ DewfordTown_Gym_Text_ExplainBulkUp:
 	.string "… … … … … …$"
 
 DewfordTown_Gym_Text_RegisteredBrawly:
-	.string "Registered GYM LEADER BRAWLY\n"
+	.string "Registered GYM LEADER 程咬金\n"
 	.string "in the POKéNAV.$"
 
 DewfordTown_Gym_Text_BrawlyPostBattle:
@@ -424,15 +424,15 @@ DewfordTown_Gym_Text_BrawlyPostBattle:
 	.string "among TRAINERS one day!$"
 
 DewfordTown_Gym_Text_GymStatue:
-	.string "DEWFORD TOWN POKéMON GYM$"
+	.string "武馆镇 POKéMON GYM$"
 
 DewfordTown_Gym_Text_GymStatueCertified:
-	.string "DEWFORD TOWN POKéMON GYM\p"
-	.string "BRAWLY'S CERTIFIED TRAINERS:\n"
+	.string "武馆镇 POKéMON GYM\p"
+	.string "程咬金'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
 DewfordTown_Gym_Text_BrawlyPreRematch:
-	.string "BRAWLY: A wave may draw back, but it\n"
+	.string "程咬金: A wave may draw back, but it\n"
 	.string "always returns to the shore.\p"
 	.string "A giant wave of a talent like you…\n"
 	.string "I knew you would return!\p"
@@ -444,12 +444,12 @@ DewfordTown_Gym_Text_BrawlyRematchDefeat:
 	.string "Swamped again!$"
 
 DewfordTown_Gym_Text_BrawlyPostRematch:
-	.string "BRAWLY: Battling is vast and it's deep.\n"
+	.string "程咬金: Battling is vast and it's deep.\n"
 	.string "You can't see the bottom.\l"
 	.string "It's just like the sea of HOENN!$"
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
-	.string "BRAWLY: A wave may draw back, but it\n"
+	.string "程咬金: A wave may draw back, but it\n"
 	.string "always returns to the shore.\p"
 	.string "A giant wave of a talent like you…\n"
 	.string "I knew you would return!\p"

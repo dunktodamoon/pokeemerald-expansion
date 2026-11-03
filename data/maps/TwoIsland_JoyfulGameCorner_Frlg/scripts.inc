@@ -273,7 +273,7 @@ TwoIsland_JoyfulGameCorner_Text_ThisIsForMe::
 	.string "happy.$"
 
 TwoIsland_JoyfulGameCorner_Text_HandedMeteoriteToLostellesDaddy::
-	.string "{PLAYER} handed the METEORITE\n"
+	.string "{PLAYER} handed the 星石\n"
 	.string "to LOSTELLE's daddy.$"
 
 TwoIsland_JoyfulGameCorner_Text_OhThisIsFromBill::

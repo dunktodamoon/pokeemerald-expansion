@@ -244,8 +244,8 @@ Route118_EventScript_Deandre::
 	end
 
 Route118_Text_StevenQuestions:
-	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
-	.string "It's me, STEVEN!\n"
+	.string "杨戬: Hi, {PLAYER}{KUN}!\p"
+	.string "It's me, 杨戬!\n"
 	.string "We met in the cave near DEWFORD.\p"
 	.string "Have you met many kinds of POKéMON\n"
 	.string "since I last saw you?\p"
@@ -286,13 +286,13 @@ Route118_Text_TryCatchingMonWithGoodRod:
 Route118_Text_CanCrossRiversWithSurf:
 	.string "Even if there isn't a boat, you can\n"
 	.string "cross rivers and the sea if you have\l"
-	.string "a POKéMON that knows SURF.\p"
+	.string "a POKéMON that knows 分水诀.\p"
 	.string "POKéMON can be counted on to do so\n"
 	.string "much!$"
 
 Route118_Text_RouteSignMauville:
 	.string "ROUTE 118\n"
-	.string "{LEFT_ARROW} MAUVILLE CITY$"
+	.string "{LEFT_ARROW} 雷泽城$"
 
 Route118_Text_RouteSign119:
 	.string "ROUTE 118\n"

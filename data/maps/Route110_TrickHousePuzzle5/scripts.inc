@@ -947,13 +947,13 @@ Route110_TrickHousePuzzle5_Text_Mechadoll2Intro:
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1:
 	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these POKéMON did WALLY\n"
-	.string "borrow from your father?$"
+	.string "Which of these POKéMON did 虎子\n"
+	.string "borrow from 镇元大仙?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
 	.string "MECHADOLL 2 QUIZ.\p"
 	.string "Which of these POKéMON was chasing\n"
-	.string "PROF. BIRCH?$"
+	.string "南极仙翁?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:
 	.string "MECHADOLL 2 QUIZ.\p"
@@ -992,7 +992,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1:
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2:
 	.string "MECHADOLL 4 QUIZ.\p"
-	.string "In LAVARIDGE TOWN, were there more\n"
+	.string "In 焰炉镇, were there more\n"
 	.string "elderly men or elderly women?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3:
@@ -1013,7 +1013,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2:
 	.string "MECHADOLL 5 QUIZ.\p"
-	.string "In FORTREE CITY, how many\n"
+	.string "In 云栖城, how many\n"
 	.string "tree houses were there?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:

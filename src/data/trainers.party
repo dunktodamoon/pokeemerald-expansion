@@ -591,7 +591,7 @@ Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_ARCHIE ===
-Name: ARCHIE
+Name: 东海龙王·敖广
 Class: Aqua Leader
 Pic: Aqua Leader Archie
 Gender: Male
@@ -4587,7 +4587,7 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Roar
 
 === TRAINER_SIDNEY ===
-Name: SIDNEY
+Name: 持国
 Class: Elite Four
 Pic: Elite Four Sidney
 Gender: Male
@@ -4638,7 +4638,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Slash
 
 === TRAINER_PHOEBE ===
-Name: PHOEBE
+Name: 增长
 Class: Elite Four
 Pic: Elite Four Phoebe
 Gender: Female
@@ -4689,7 +4689,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 
 === TRAINER_GLACIA ===
-Name: GLACIA
+Name: 广目
 Class: Elite Four
 Pic: Elite Four Glacia
 Gender: Female
@@ -4740,7 +4740,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sheer Cold
 
 === TRAINER_DRAKE ===
-Name: DRAKE
+Name: 多闻
 Class: Elite Four
 Pic: Elite Four Drake
 Gender: Male
@@ -4791,7 +4791,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 
 === TRAINER_ROXANNE_1 ===
-Name: ROXANNE
+Name: 巨灵神
 Class: Leader
 Pic: Leader Roxanne
 Gender: Female
@@ -4825,7 +4825,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Rock Tomb
 
 === TRAINER_BRAWLY_1 ===
-Name: BRAWLY
+Name: 程咬金
 Class: Leader
 Pic: Leader Brawly
 Gender: Male
@@ -4859,7 +4859,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Bulk Up
 
 === TRAINER_WATTSON_1 ===
-Name: WATTSON
+Name: 李靖
 Class: Leader
 Pic: Leader Wattson
 Gender: Male
@@ -4901,7 +4901,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Howl
 
 === TRAINER_FLANNERY_1 ===
-Name: FLANNERY
+Name: 红孩儿
 Class: Leader
 Pic: Leader Flannery
 Gender: Female
@@ -4943,7 +4943,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Attract
 
 === TRAINER_NORMAN_1 ===
-Name: NORMAN
+Name: 镇元大仙
 Class: Leader
 Pic: Leader Norman
 Gender: Male
@@ -4985,7 +4985,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Feint Attack
 
 === TRAINER_WINONA_1 ===
-Name: WINONA
+Name: 金翅大鹏
 Class: Leader
 Pic: Leader Winona
 Gender: Female
@@ -5035,7 +5035,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aerial Ace
 
 === TRAINER_TATE_AND_LIZA_1 ===
-Name: TATE&LIZA
+Name: 金吒&木吒
 Class: Leader
 Pic: Leader Tate And Liza
 Gender: Male
@@ -5077,7 +5077,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Flamethrower
 
 === TRAINER_JUAN_1 ===
-Name: JUAN
+Name: 九头精怪
 Class: Leader
 Pic: Leader Juan
 Gender: Male
@@ -6243,7 +6243,7 @@ Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WALLACE ===
-Name: WALLACE
+Name: 蚩尤
 Class: Champion
 Pic: Champion Wallace
 Gender: Male
@@ -9455,7 +9455,7 @@ Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WALLY_VR_1 ===
-Name: WALLY
+Name: 虎子
 Class: Rival
 Pic: Wally
 Gender: Male
@@ -9505,7 +9505,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Future Sight
 
 === TRAINER_BRENDAN_ROUTE_103_MUDKIP ===
-Name: BRENDAN
+Name: 剑侠客
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9518,7 +9518,7 @@ Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRENDAN_ROUTE_110_MUDKIP ===
-Name: BRENDAN
+Name: 剑侠客
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9539,7 +9539,7 @@ Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_BRENDAN_ROUTE_119_MUDKIP ===
-Name: BRENDAN
+Name: 剑侠客
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9560,7 +9560,7 @@ Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_BRENDAN_ROUTE_103_TREECKO ===
-Name: BRENDAN
+Name: 剑侠客
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9573,7 +9573,7 @@ Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRENDAN_ROUTE_110_TREECKO ===
-Name: BRENDAN
+Name: 剑侠客
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9594,7 +9594,7 @@ Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_BRENDAN_ROUTE_119_TREECKO ===
-Name: BRENDAN
+Name: 剑侠客
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9615,7 +9615,7 @@ Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_BRENDAN_ROUTE_103_TORCHIC ===
-Name: BRENDAN
+Name: 剑侠客
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9628,7 +9628,7 @@ Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRENDAN_ROUTE_110_TORCHIC ===
-Name: BRENDAN
+Name: 剑侠客
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9649,7 +9649,7 @@ Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_BRENDAN_ROUTE_119_TORCHIC ===
-Name: BRENDAN
+Name: 剑侠客
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9670,7 +9670,7 @@ Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_MAY_ROUTE_103_MUDKIP ===
-Name: MAY
+Name: 剑侠客
 Class: Rival
 Pic: May
 Gender: Female
@@ -9683,7 +9683,7 @@ Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MAY_ROUTE_110_MUDKIP ===
-Name: MAY
+Name: 剑侠客
 Class: Rival
 Pic: May
 Gender: Female
@@ -9704,7 +9704,7 @@ Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_MAY_ROUTE_119_MUDKIP ===
-Name: MAY
+Name: 剑侠客
 Class: Rival
 Pic: May
 Gender: Female
@@ -9725,7 +9725,7 @@ Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_MAY_ROUTE_103_TREECKO ===
-Name: MAY
+Name: 剑侠客
 Class: Rival
 Pic: May
 Gender: Female
@@ -9738,7 +9738,7 @@ Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MAY_ROUTE_110_TREECKO ===
-Name: MAY
+Name: 剑侠客
 Class: Rival
 Pic: May
 Gender: Female
@@ -9759,7 +9759,7 @@ Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_MAY_ROUTE_119_TREECKO ===
-Name: MAY
+Name: 剑侠客
 Class: Rival
 Pic: May
 Gender: Female
@@ -9780,7 +9780,7 @@ Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_MAY_ROUTE_103_TORCHIC ===
-Name: MAY
+Name: 剑侠客
 Class: Rival
 Pic: May
 Gender: Female
@@ -9793,7 +9793,7 @@ Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MAY_ROUTE_110_TORCHIC ===
-Name: MAY
+Name: 剑侠客
 Class: Rival
 Pic: May
 Gender: Female
@@ -9814,7 +9814,7 @@ Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_MAY_ROUTE_119_TORCHIC ===
-Name: MAY
+Name: 剑侠客
 Class: Rival
 Pic: May
 Gender: Female
@@ -10846,7 +10846,7 @@ Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRENDAN_RUSTBORO_TREECKO ===
-Name: BRENDAN
+Name: 剑侠客
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -10863,7 +10863,7 @@ Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
-Name: BRENDAN
+Name: 剑侠客
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -10970,7 +10970,7 @@ Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRENDAN_RUSTBORO_TORCHIC ===
-Name: BRENDAN
+Name: 剑侠客
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -10987,7 +10987,7 @@ Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_MAY_RUSTBORO_MUDKIP ===
-Name: MAY
+Name: 剑侠客
 Class: Rival
 Pic: May
 Gender: Female
@@ -11004,7 +11004,7 @@ Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_MAXIE_MAGMA_HIDEOUT ===
-Name: MAXIE
+Name: 牛魔王
 Class: Magma Leader
 Pic: Magma Leader Maxie
 Gender: Male
@@ -11026,7 +11026,7 @@ Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_MAXIE_MT_CHIMNEY ===
-Name: MAXIE
+Name: 牛魔王
 Class: Magma Leader
 Pic: Magma Leader Maxie
 Gender: Male
@@ -12036,7 +12036,7 @@ Level: 27
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_WALLY_MAUVILLE ===
-Name: WALLY
+Name: 虎子
 Class: Rival
 Pic: Wally
 Gender: Male
@@ -12049,7 +12049,7 @@ Level: 16
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_WALLY_VR_2 ===
-Name: WALLY
+Name: 虎子
 Class: Rival
 Pic: Wally
 Gender: Male
@@ -12099,7 +12099,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Future Sight
 
 === TRAINER_WALLY_VR_3 ===
-Name: WALLY
+Name: 虎子
 Class: Rival
 Pic: Wally
 Gender: Male
@@ -12149,7 +12149,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Future Sight
 
 === TRAINER_WALLY_VR_4 ===
-Name: WALLY
+Name: 虎子
 Class: Rival
 Pic: Wally
 Gender: Male
@@ -12199,7 +12199,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Future Sight
 
 === TRAINER_WALLY_VR_5 ===
-Name: WALLY
+Name: 虎子
 Class: Rival
 Pic: Wally
 Gender: Male
@@ -12249,7 +12249,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Future Sight
 
 === TRAINER_BRENDAN_LILYCOVE_MUDKIP ===
-Name: BRENDAN
+Name: 剑侠客
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -12274,7 +12274,7 @@ Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_BRENDAN_LILYCOVE_TREECKO ===
-Name: BRENDAN
+Name: 剑侠客
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -12299,7 +12299,7 @@ Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_BRENDAN_LILYCOVE_TORCHIC ===
-Name: BRENDAN
+Name: 剑侠客
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -12324,7 +12324,7 @@ Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_MAY_LILYCOVE_MUDKIP ===
-Name: MAY
+Name: 剑侠客
 Class: Rival
 Pic: May
 Gender: Female
@@ -12349,7 +12349,7 @@ Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_MAY_LILYCOVE_TREECKO ===
-Name: MAY
+Name: 剑侠客
 Class: Rival
 Pic: May
 Gender: Female
@@ -12374,7 +12374,7 @@ Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_MAY_LILYCOVE_TORCHIC ===
-Name: MAY
+Name: 剑侠客
 Class: Rival
 Pic: May
 Gender: Female
@@ -13530,7 +13530,7 @@ Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MAXIE_MOSSDEEP ===
-Name: MAXIE
+Name: 牛魔王
 Class: Magma Leader
 Pic: Magma Leader Maxie
 Gender: Male
@@ -14124,7 +14124,7 @@ Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_MAY_RUSTBORO_TREECKO ===
-Name: MAY
+Name: 剑侠客
 Class: Rival
 Pic: May
 Gender: Female
@@ -14141,7 +14141,7 @@ Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_MAY_RUSTBORO_TORCHIC ===
-Name: MAY
+Name: 剑侠客
 Class: Rival
 Pic: May
 Gender: Female
@@ -14158,7 +14158,7 @@ Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_ROXANNE_2 ===
-Name: ROXANNE
+Name: 巨灵神
 Class: Leader
 Pic: Leader Roxanne
 Gender: Female
@@ -14200,7 +14200,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 
 === TRAINER_ROXANNE_3 ===
-Name: ROXANNE
+Name: 巨灵神
 Class: Leader
 Pic: Leader Roxanne
 Gender: Female
@@ -14250,7 +14250,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 
 === TRAINER_ROXANNE_4 ===
-Name: ROXANNE
+Name: 巨灵神
 Class: Leader
 Pic: Leader Roxanne
 Gender: Female
@@ -14300,7 +14300,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 
 === TRAINER_ROXANNE_5 ===
-Name: ROXANNE
+Name: 巨灵神
 Class: Leader
 Pic: Leader Roxanne
 Gender: Female
@@ -14358,7 +14358,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 
 === TRAINER_BRAWLY_2 ===
-Name: BRAWLY
+Name: 程咬金
 Class: Leader
 Pic: Leader Brawly
 Gender: Male
@@ -14400,7 +14400,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 
 === TRAINER_BRAWLY_3 ===
-Name: BRAWLY
+Name: 程咬金
 Class: Leader
 Pic: Leader Brawly
 Gender: Male
@@ -14442,7 +14442,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 
 === TRAINER_BRAWLY_4 ===
-Name: BRAWLY
+Name: 程咬金
 Class: Leader
 Pic: Leader Brawly
 Gender: Male
@@ -14492,7 +14492,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 
 === TRAINER_BRAWLY_5 ===
-Name: BRAWLY
+Name: 程咬金
 Class: Leader
 Pic: Leader Brawly
 Gender: Male
@@ -14550,7 +14550,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 
 === TRAINER_WATTSON_2 ===
-Name: WATTSON
+Name: 李靖
 Class: Leader
 Pic: Leader Wattson
 Gender: Male
@@ -14592,7 +14592,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Protect
 
 === TRAINER_WATTSON_3 ===
-Name: WATTSON
+Name: 李靖
 Class: Leader
 Pic: Leader Wattson
 Gender: Male
@@ -14642,7 +14642,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Protect
 
 === TRAINER_WATTSON_4 ===
-Name: WATTSON
+Name: 李靖
 Class: Leader
 Pic: Leader Wattson
 Gender: Male
@@ -14692,7 +14692,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Protect
 
 === TRAINER_WATTSON_5 ===
-Name: WATTSON
+Name: 李靖
 Class: Leader
 Pic: Leader Wattson
 Gender: Male
@@ -14750,7 +14750,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Protect
 
 === TRAINER_FLANNERY_2 ===
-Name: FLANNERY
+Name: 红孩儿
 Class: Leader
 Pic: Leader Flannery
 Gender: Female
@@ -14792,7 +14792,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Attract
 
 === TRAINER_FLANNERY_3 ===
-Name: FLANNERY
+Name: 红孩儿
 Class: Leader
 Pic: Leader Flannery
 Gender: Female
@@ -14842,7 +14842,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Attract
 
 === TRAINER_FLANNERY_4 ===
-Name: FLANNERY
+Name: 红孩儿
 Class: Leader
 Pic: Leader Flannery
 Gender: Female
@@ -14900,7 +14900,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Attract
 
 === TRAINER_FLANNERY_5 ===
-Name: FLANNERY
+Name: 红孩儿
 Class: Leader
 Pic: Leader Flannery
 Gender: Female
@@ -14958,7 +14958,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Attract
 
 === TRAINER_NORMAN_2 ===
-Name: NORMAN
+Name: 镇元大仙
 Class: Leader
 Pic: Leader Norman
 Gender: Male
@@ -15000,7 +15000,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shadow Ball
 
 === TRAINER_NORMAN_3 ===
-Name: NORMAN
+Name: 镇元大仙
 Class: Leader
 Pic: Leader Norman
 Gender: Male
@@ -15050,7 +15050,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shadow Ball
 
 === TRAINER_NORMAN_4 ===
-Name: NORMAN
+Name: 镇元大仙
 Class: Leader
 Pic: Leader Norman
 Gender: Male
@@ -15100,7 +15100,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shadow Ball
 
 === TRAINER_NORMAN_5 ===
-Name: NORMAN
+Name: 镇元大仙
 Class: Leader
 Pic: Leader Norman
 Gender: Male
@@ -15158,7 +15158,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shadow Ball
 
 === TRAINER_WINONA_2 ===
-Name: WINONA
+Name: 金翅大鹏
 Class: Leader
 Pic: Leader Winona
 Gender: Female
@@ -15208,7 +15208,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 
 === TRAINER_WINONA_3 ===
-Name: WINONA
+Name: 金翅大鹏
 Class: Leader
 Pic: Leader Winona
 Gender: Female
@@ -15266,7 +15266,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 
 === TRAINER_WINONA_4 ===
-Name: WINONA
+Name: 金翅大鹏
 Class: Leader
 Pic: Leader Winona
 Gender: Female
@@ -15324,7 +15324,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 
 === TRAINER_WINONA_5 ===
-Name: WINONA
+Name: 金翅大鹏
 Class: Leader
 Pic: Leader Winona
 Gender: Female
@@ -15382,7 +15382,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 
 === TRAINER_TATE_AND_LIZA_2 ===
-Name: TATE&LIZA
+Name: 金吒&木吒
 Class: Leader
 Pic: Leader Tate And Liza
 Gender: Male
@@ -15432,7 +15432,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
 
 === TRAINER_TATE_AND_LIZA_3 ===
-Name: TATE&LIZA
+Name: 金吒&木吒
 Class: Leader
 Pic: Leader Tate And Liza
 Gender: Male
@@ -15490,7 +15490,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
 
 === TRAINER_TATE_AND_LIZA_4 ===
-Name: TATE&LIZA
+Name: 金吒&木吒
 Class: Leader
 Pic: Leader Tate And Liza
 Gender: Male
@@ -15548,7 +15548,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
 
 === TRAINER_TATE_AND_LIZA_5 ===
-Name: TATE&LIZA
+Name: 金吒&木吒
 Class: Leader
 Pic: Leader Tate And Liza
 Gender: Male
@@ -15606,7 +15606,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
 
 === TRAINER_JUAN_2 ===
-Name: JUAN
+Name: 九头精怪
 Class: Leader
 Pic: Leader Juan
 Gender: Male
@@ -15656,7 +15656,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
 
 === TRAINER_JUAN_3 ===
-Name: JUAN
+Name: 九头精怪
 Class: Leader
 Pic: Leader Juan
 Gender: Male
@@ -15706,7 +15706,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
 
 === TRAINER_JUAN_4 ===
-Name: JUAN
+Name: 九头精怪
 Class: Leader
 Pic: Leader Juan
 Gender: Male
@@ -15764,7 +15764,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
 
 === TRAINER_JUAN_5 ===
-Name: JUAN
+Name: 九头精怪
 Class: Leader
 Pic: Leader Juan
 Gender: Male
@@ -15858,7 +15858,7 @@ Level: 30
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_STEVEN ===
-Name: STEVEN
+Name: 杨戬
 Class: Rival
 Pic: Steven
 Gender: Male
@@ -16855,7 +16855,7 @@ Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRENDAN_PLACEHOLDER ===
-Name: BRENDAN
+Name: 剑侠客
 Class: RS Protag
 Pic: RS Brendan
 Gender: Male
@@ -16867,7 +16867,7 @@ Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MAY_PLACEHOLDER ===
-Name: MAY
+Name: 剑侠客
 Class: RS Protag
 Pic: RS May
 Gender: Female

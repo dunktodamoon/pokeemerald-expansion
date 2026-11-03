@@ -23,7 +23,7 @@ gPokeNewsTextSlateport_Ongoing::
 	.string "for it stupendously in the MARKET!\p"
 	.string "He promises unbeatable bargain\n"
 	.string "prices on CALCIUM and PROTEIN!\p"
-	.string "A trip to SLATEPORT CITY sounds\n"
+	.string "A trip to 东海港 sounds\n"
 	.string "worthwhile. Why not visit and shop\l"
 	.string "to your heart's content?\p"
 	.string "That's the news on POKéMON NEWS.$"
@@ -39,7 +39,7 @@ gPokeNewsTextSlateport_Ending::
 	.string "prices on CALCIUM and PROTEIN!\p"
 	.string "According to the ENERGY GURU, he\n"
 	.string "still has ample merchandise left.\p"
-	.string "Why not visit SLATEPORT CITY for\n"
+	.string "Why not visit 东海港 for\n"
 	.string "a most enjoyable shopping trip?\p"
 	.string "That's the news on POKéMON NEWS.$"
 
@@ -63,7 +63,7 @@ gPokeNewsTextGameCorner_Ongoing::
 	.string "arrived!\p"
 	.string "Could you be lucky at the SLOTS \n"
 	.string "and ROULETTE?\p"
-	.string "The location is MAUVILLE CITY.\n"
+	.string "The location is 雷泽城.\n"
 	.string "This is the place!\p"
 	.string "That's the news on POKéMON NEWS.$"
 
@@ -77,7 +77,7 @@ gPokeNewsTextGameCorner_Ending::
 	.string "Could you be lucky at the SLOTS\n"
 	.string "and ROULETTE?\p"
 	.string "Time is limited and has almost run out.\n"
-	.string "The location is MAUVILLE CITY.\p"
+	.string "The location is 雷泽城.\p"
 	.string "That's the news on POKéMON NEWS.$"
 
 gPokeNewsTextLilycove_Upcoming::

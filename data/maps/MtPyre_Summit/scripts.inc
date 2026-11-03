@@ -452,7 +452,7 @@ MtPyre_Summit_Text_Grunt2PostBattle:
 
 MtPyre_Summit_Text_Grunt3Intro:
 	.string "You…\n"
-	.string "We saw you at MT. CHIMNEY.\p"
+	.string "We saw you at 焰炉山.\p"
 	.string "You don't belong to either TEAM,\n"
 	.string "so why would you be here?$"
 
@@ -482,10 +482,10 @@ MtPyre_Summit_Text_Grunt4PostBattle:
 	.string "with us members and our leader.$"
 
 MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
-	.string "ARCHIE: TEAM MAGMA's MAXIE got ahead\n"
+	.string "东海龙王·敖广: TEAM MAGMA's 牛魔王 got ahead\n"
 	.string "of us, but we also got what we wanted.\p"
-	.string "The RED ORB preserved at MT. PYRE…\n"
-	.string "I, ARCHIE, now have it in my possession!\p"
+	.string "The 赤焰珠 preserved at 祭魂山…\n"
+	.string "I, 东海龙王·敖广, now have it in my possession!\p"
 	.string "Fufufu… Now we can bring our ultimate\n"
 	.string "objective to fruition!\p"
 	.string "Okay, TEAM!\n"
@@ -494,16 +494,16 @@ MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
 MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
 	.string "Oh, no…\n"
 	.string "This cannot happen…\p"
-	.string "Not only the BLUE ORB, but even\n"
-	.string "the RED ORB has been taken…\p"
-	.string "The BLUE ORB and RED ORB must never\n"
+	.string "Not only the 碧波珠, but even\n"
+	.string "the 赤焰珠 has been taken…\p"
+	.string "The 碧波珠 and 赤焰珠 must never\n"
 	.string "be separated. They belong together.\p"
 	.string "What are those men trying to do with\n"
 	.string "the two ORBS?\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "Oh, yes. Was it TEAM MAGMA who came\n"
-	.string "and took the BLUE ORB first?\p"
+	.string "and took the 碧波珠 first?\p"
 	.string "Well, in their haste, they left this\n"
 	.string "behind.\p"
 	.string "I couldn't imagine what exactly it\n"
@@ -512,17 +512,17 @@ MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
 	.string "Perhaps it will be useful in some way.$"
 
 MtPyre_Summit_Text_OrbsHaveBeenTaken:
-	.string "The BLUE ORB and RED ORB taken by\n"
+	.string "The 碧波珠 and 赤焰珠 taken by\n"
 	.string "those sinister men…\p"
 	.string "They must never be apart…\n"
 	.string "I fear something terrible will happen…$"
 
 MtPyre_Summit_Text_GroudonKyogreAwakened:
 	.string "Oh, my goodness…\p"
-	.string "You say that both GROUDON and KYOGRE\n"
+	.string "You say that both 犼 and 蛟龙王\n"
 	.string "have been awakened?\p"
-	.string "It is said that the BLUE ORB and\n"
-	.string "the RED ORB quelled the rage of\l"
+	.string "It is said that the 碧波珠 and\n"
+	.string "the 赤焰珠 quelled the rage of\l"
 	.string "the two POKéMON…\p"
 	.string "It is also said that the true owner\n"
 	.string "of the ORBS still exists.\p"
@@ -549,7 +549,7 @@ MtPyre_Summit_Text_SuperAncientPokemonTaughtUs:
 	.string "taught us that…$"
 
 MtPyre_Summit_Text_WillYouHearOutMyTale:
-	.string "MT. PYRE is where we calm the spirits\n"
+	.string "祭魂山 is where we calm the spirits\n"
 	.string "of POKéMON that have passed on…\p"
 	.string "This is a high place where one can\n"
 	.string "see all of HOENN…\p"
@@ -571,7 +571,7 @@ MtPyre_Summit_Text_GroudonKyogreTale:
 	.string "Their fierce duel raged without end.\p"
 	.string "The world was engulfed in massive\n"
 	.string "infernos and vicious storms.\p"
-	.string "The BLUE ORB and the RED ORB brought\n"
+	.string "The 碧波珠 and the 赤焰珠 brought\n"
 	.string "an end to the calamity.\p"
 	.string "Light poured from the two ORBS and\n"
 	.string "becalmed the enraged adversaries.\p"
@@ -584,7 +584,7 @@ MtPyre_Summit_Text_WellThatTooIsFine:
 	.string "Well, that, too, is fine…$"
 
 MtPyre_Summit_Text_MaxieSilence:
-	.string "MAXIE: {PLAYER}…\p"
+	.string "牛魔王: {PLAYER}…\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …$"
 

@@ -315,7 +315,7 @@ Route14_Text_BeckRematchIntro::
 
 Route14_Text_MarlonRematchIntro::
 	.string "Have you taught your bird POKéMON\n"
-	.string "how to FLY?\p"
+	.string "how to 御风符?\p"
 	.string "You'll be able to soar with it into\n"
 	.string "the sky! Give it a try.$"
 

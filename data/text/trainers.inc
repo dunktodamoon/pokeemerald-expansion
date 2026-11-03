@@ -208,7 +208,7 @@ Route103_Text_PetePostBattle:
 	.string "Oh, I understand where you're coming\n"
 	.string "from now.\p"
 	.string "If I had a POKéMON that trusty,\n"
-	.string "I'd want to SURF on it, too!$"
+	.string "I'd want to 分水诀 on it, too!$"
 
 Route103_Text_IsabelleIntro:
 	.string "Watch where you're going!\n"
@@ -1344,7 +1344,7 @@ Route111_Text_IreneDefeat:
 
 Route111_Text_IrenePostBattle:
 	.string "I'm thinking that I should go to\n"
-	.string "MT. CHIMNEY, but the view around\l"
+	.string "焰炉山, but the view around\l"
 	.string "here is very nice, too.$"
 
 Route111_Text_DaisukeIntro:
@@ -1556,7 +1556,7 @@ Route112_Text_TrentRematchDefeat:
 
 Route112_Text_TrentRematchPostBattle:
 	.string "I hear there are some seriously tough\n"
-	.string "TRAINERS on top of MT. CHIMNEY.\p"
+	.string "TRAINERS on top of 焰炉山.\p"
 	.string "I intend to get up there and give them\n"
 	.string "a challenge!$"
 
@@ -1907,7 +1907,7 @@ Route114_Text_ClaudeDefeat:
 
 Route114_Text_ClaudePostBattle:
 	.string "I think I'll try my luck at landing\n"
-	.string "a big one at METEOR FALLS.\p"
+	.string "a big one at 星陨涧.\p"
 	.string "There has to be something in there.\n"
 	.string "I just know it.$"
 
@@ -2229,7 +2229,7 @@ Route116_Text_JerryDefeat:
 Route116_Text_JerryPostBattle:
 	.string "I'll have to redo some courses at\n"
 	.string "the TRAINER'S SCHOOL.\l"
-	.string "If I don't, ROXANNE will be steamed.$"
+	.string "If I don't, 巨灵神 will be steamed.$"
 
 Route116_Text_JerryRegister1:
 	.string "I learned at the TRAINER'S SCHOOL\n"
@@ -2255,7 +2255,7 @@ Route116_Text_JerryRematchDefeat:
 Route116_Text_JerryPostRematch:
 	.string "I'll have to redo some courses at\n"
 	.string "the TRAINER'S SCHOOL.\l"
-	.string "If I don't, ROXANNE will be steamed.$"
+	.string "If I don't, 巨灵神 will be steamed.$"
 
 Route116_Text_KarenIntro:
 	.string "I study at school, and I study on\n"
@@ -2266,7 +2266,7 @@ Route116_Text_KarenDefeat:
 
 Route116_Text_KarenPostBattle:
 	.string "Awww, I'll never become an elegant\n"
-	.string "TRAINER like ROXANNE this way!$"
+	.string "TRAINER like 巨灵神 this way!$"
 
 Route116_Text_KarenRegister1:
 	.string "Oh, wow! Isn't that a POKéNAV?\n"
@@ -2285,7 +2285,7 @@ Route116_Text_KarenRematchDefeat:
 	.string "I lost again?$"
 
 Route116_Text_KarenPostRematch:
-	.string "You've beaten ROXANNE?\n"
+	.string "You've beaten 巨灵神?\n"
 	.string "I can't beat you, then. Not yet.$"
 
 Route116_Text_SarahIntro:
@@ -2606,7 +2606,7 @@ Route118_Text_RosePostRematch:
 	.string "POKéMON will be attracted by it.$"
 
 Route118_Text_PerryIntro:
-	.string "BIRD POKéMON that FLY elegantly in\n"
+	.string "BIRD POKéMON that 御风符 elegantly in\n"
 	.string "the sky… They're the best!$"
 
 Route118_Text_PerryDefeat:
@@ -2896,7 +2896,7 @@ Route119_Text_ChrisDefeat:
 	.string "takes to win.$"
 
 Route119_Text_ChrisPostBattle:
-	.string "Go for a SURF on my POKéMON…\p"
+	.string "Go for a 分水诀 on my POKéMON…\p"
 	.string "Then fish off its back…\p"
 	.string "It's an indescribably luxuriant moment!$"
 
@@ -2949,7 +2949,7 @@ Route120_Text_ColinDefeat:
 	.string "You soared above me!$"
 
 Route120_Text_ColinPostBattle:
-	.string "The move FLY is convenient,\n"
+	.string "The move 御风符 is convenient,\n"
 	.string "don't you think?\p"
 	.string "While the POKéMON is flying,\n"
 	.string "almost no moves can strike it.$"
@@ -3189,7 +3189,7 @@ Route121_Text_TammyDefeat:
 	.string "I have lost…$"
 
 Route121_Text_TammyPostBattle:
-	.string "MT. PYRE…\n"
+	.string "祭魂山…\n"
 	.string "There is a mysterious power\l"
 	.string "at work there…$"
 
@@ -3399,7 +3399,7 @@ Route123_Text_CameronRematchDefeat:
 	.string "I feel sad…$"
 
 Route123_Text_CameronPostRematch:
-	.string "I should train at MT. PYRE…\n"
+	.string "I should train at 祭魂山…\n"
 	.string "I'll never beat you this way…$"
 
 Route123_Text_JackiIntro:
@@ -3461,7 +3461,7 @@ Route123_Text_YukiNotEnoughMons:
 	.string "don't have two POKéMON.$"
 
 Route123_Text_KindraIntro:
-	.string "MT. PYRE…\n"
+	.string "祭魂山…\n"
 	.string "Where the spirits of POKéMON sleep…\l"
 	.string "Will your POKéMON sleep?$"
 
@@ -3469,7 +3469,7 @@ Route123_Text_KindraDefeat:
 	.string "Overflowing with vitality…$"
 
 Route123_Text_KindraPostBattle:
-	.string "MT. PYRE…\n"
+	.string "祭魂山…\n"
 	.string "Where the spirits of POKéMON sleep…\p"
 	.string "It must overflow with a power that\n"
 	.string "soothes spirits…$"
@@ -3670,7 +3670,7 @@ Route124_Text_ChadDefeat:
 
 Route124_Text_ChadPostBattle:
 	.string "I have it on good authority that\n"
-	.string "there's a DIVE spot around here.\p"
+	.string "there's a 入海珠 spot around here.\p"
 	.string "It gives me the urge to go deep\n"
 	.string "again…$"
 
@@ -3812,7 +3812,7 @@ Route125_Text_TanyaDefeat:
 
 Route125_Text_TanyaPostBattle:
 	.string "Whew…\n"
-	.string "Which way is it to MOSSDEEP CITY?$"
+	.string "Which way is it to 玄机城?$"
 
 Route125_Text_SharonIntro:
 	.string "How would you like to take on the\n"
@@ -3934,7 +3934,7 @@ Route126_Text_BarryPostBattle:
 
 Route126_Text_DeanIntro:
 	.string "This towering white mountain of rock\n"
-	.string "is SOOTOPOLIS CITY.$"
+	.string "is 龙吟古镇.$"
 
 Route126_Text_DeanDefeat:
 	.string "I was done in?$"
@@ -4147,7 +4147,7 @@ Route127_Text_AthenaPostBattle:
 	.string "and sky, it feels as if time slows down.$"
 
 Route128_Text_IsaiahIntro:
-	.string "EVER GRANDE CITY is still a long ways\n"
+	.string "蚩尤古道 is still a long ways\n"
 	.string "away…$"
 
 Route128_Text_IsaiahDefeat:
@@ -4165,13 +4165,13 @@ Route128_Text_IsaiahRegister:
 
 Route128_Text_IsaiahRematchIntro:
 	.string "I'm still feeling good. I'll keep on\n"
-	.string "swimming to EVER GRANDE CITY.$"
+	.string "swimming to 蚩尤古道.$"
 
 Route128_Text_IsaiahRematchDefeat:
 	.string "I've yet to taste my first victory…$"
 
 Route128_Text_IsaiahPostRematch:
-	.string "I'll eventually reach EVER GRANDE CITY\n"
+	.string "I'll eventually reach 蚩尤古道\n"
 	.string "where I can eventually win…$"
 
 Route128_Text_KatelynIntro:
@@ -4230,14 +4230,14 @@ Route128_Text_RubenPostBattle:
 Route128_Text_WayneIntro:
 	.string "I want to visit EVER GRANDE, so I\n"
 	.string "caught myself a POKéMON that knows\l"
-	.string "the move WATERFALL to crest the falls.$"
+	.string "the move 逆流诀 to crest the falls.$"
 
 Route128_Text_WayneDefeat:
 	.string "I'm crestfallen!$"
 
 Route128_Text_WaynePostBattle:
 	.string "Awww, phooey!\p"
-	.string "My POKéMON knows WATERFALL, but\n"
+	.string "My POKéMON knows 逆流诀, but\n"
 	.string "I don't have the SOOTOPOLIS GYM BADGE!$"
 
 Route128_Text_HarrisonIntro:
@@ -4724,7 +4724,7 @@ Route134_Text_AaronDefeat:
 
 Route134_Text_AaronPostBattle:
 	.string "We will return for more training at\n"
-	.string "METEOR FALLS.\p"
+	.string "星陨涧.\p"
 	.string "If you'd like, you should go, too.\n"
 	.string "It will definitely toughen you up!$"
 
@@ -4737,10 +4737,10 @@ Route134_Text_KelvinDefeat:
 	.string "Please, stop! Please!$"
 
 Route134_Text_KelvinPostBattle:
-	.string "If we can't SURF, how are we supposed\n"
+	.string "If we can't 分水诀, how are we supposed\n"
 	.string "to get home?\p"
 	.string "Actually, I know a fainted POKéMON\n"
-	.string "can still SURF, but it feels wrong.$"
+	.string "can still 分水诀, but it feels wrong.$"
 
 Route134_Text_MarleyIntro:
 	.string "Can your POKéMON dodge our\n"

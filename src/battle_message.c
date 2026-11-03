@@ -389,7 +389,7 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_WILDPKMNFLED]                         = COMPOUND_STRING("{PLAY_SE SE_FLEE}The wild {B_BUFF1} fled!"),
     [STRINGID_NORUNNINGFROMTRAINERS]                = COMPOUND_STRING("No! There's no running from a Trainer battle!\p"),
     [STRINGID_CANTESCAPE]                           = COMPOUND_STRING("You can't escape!\p"),
-    [STRINGID_DONTLEAVEBIRCH]                       = COMPOUND_STRING("PROF. BIRCH: Don't leave me like this!\p"), //no decapitalize until it is everywhere
+    [STRINGID_DONTLEAVEBIRCH]                       = COMPOUND_STRING("南极仙翁: Don't leave me like this!\p"), //no decapitalize until it is everywhere
     [STRINGID_BUTNOTHINGHAPPENED]                   = COMPOUND_STRING("But nothing happened!"),
     [STRINGID_BUTITFAILED]                          = COMPOUND_STRING("But it failed!"),
     [STRINGID_ITHURTCONFUSION]                      = COMPOUND_STRING("It hurt itself in its confusion!"),
@@ -1504,7 +1504,7 @@ const u8 gText_NewLine[] = _("\n");
 const u8 gText_Are[] = _("are");
 const u8 gText_Are2[] = _("are");
 const u8 gText_BadEgg[] = _("Bad Egg");
-const u8 gText_BattleWallyName[] = _("WALLY");
+const u8 gText_BattleWallyName[] = _("虎子");
 const u8 gText_Win[] = _("{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}Win");
 const u8 gText_Loss[] = _("{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}Loss");
 const u8 gText_Draw[] = _("{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}Draw");
@@ -3556,7 +3556,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst, u32 dstSize)
                     if (IS_FRLG)
                         textStart = StringCopy(textStart, COMPOUND_STRING("The old man"));
                     else
-                        textStart = StringCopy(textStart, COMPOUND_STRING("WALLY"));
+                        textStart = StringCopy(textStart, COMPOUND_STRING("虎子"));
                 }
                 else if (GetBattlerPosition(gBattlerAttacker) == B_POSITION_PLAYER_LEFT)
                 {

@@ -148,27 +148,27 @@ MossdeepCity_StevensHouse_EventScript_DiveItemBall::
 	end
 
 MossdeepCity_StevensHouse_Text_YouveEarnedHMDive:
-	.string "STEVEN: {PLAYER}{KUN}…\p"
+	.string "杨戬: {PLAYER}{KUN}…\p"
 	.string "As you can see, there's not much here,\n"
 	.string "but this is my home.\p"
 	.string "Thank you for all that you've done.\p"
 	.string "This is my token of appreciation.\n"
-	.string "It's the HIDDEN MACHINE DIVE.\p"
+	.string "It's the HIDDEN MACHINE 入海珠.\p"
 	.string "No need to be shy--you've earned\n"
 	.string "this HM.$"
 
 MossdeepCity_StevensHouse_Text_ExplainDive:
-	.string "STEVEN: While you're using SURF, you\n"
+	.string "杨戬: While you're using 分水诀, you\n"
 	.string "should notice dark patches of water.\p"
-	.string "Use DIVE if you come to deep water\n"
+	.string "Use 入海珠 if you come to deep water\n"
 	.string "like it. You'll drop to the seafloor.\p"
 	.string "When you want to come back up, use\n"
-	.string "DIVE again.\p"
+	.string "入海珠 again.\p"
 	.string "In some places, it won't be possible\n"
 	.string "for you to surface, though.$"
 
 MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis:
-	.string "STEVEN: Apparently, there's an\n"
+	.string "杨戬: Apparently, there's an\n"
 	.string "underwater cavern between\l"
 	.string "MOSSDEEP and SOOTOPOLIS.\p"
 	.string "You know, the one that CAPT. STERN\n"
@@ -206,9 +206,9 @@ MossdeepCity_StevensHouse_Text_LetterFromSteven:
 	.string "POKéMON.\p"
 	.string "I'm counting on you.\p"
 	.string "May our paths cross someday.\p"
-	.string "STEVEN STONE$"
+	.string "杨戬 STONE$"
 
 MossdeepCity_StevensHouse_Text_CollectionOfRareRocks:
 	.string "It's a collection of rare rocks and\n"
-	.string "stones assembled by STEVEN.$"
+	.string "stones assembled by 杨戬.$"
 

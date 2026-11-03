@@ -466,18 +466,18 @@ MauvilleCity_PokemonCenter_1F_Text_SafariGamesStory::
 	.string "must come out in the SAFARI ZONE!$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedCutTitle::
-	.string "The CUT-Frenzy TRAINER$"
+	.string "The 开山斧-Frenzy TRAINER$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedCutAction::
-	.string "Used CUT$"
+	.string "Used 开山斧$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedCutStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER used CUT\n"
+	.string "This TRAINER used 开山斧\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} is a TRAINER who just must\n"
-	.string "love to CUT!$"
+	.string "love to 开山斧!$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashTitle::
 	.string "The ROCK-SMASHING TRAINER$"
@@ -488,7 +488,7 @@ MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashAction::
 MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER used ROCK SMASH\n"
+	.string "This TRAINER used 破石锤\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} must be a TRAINER who\n"
 	.string "can't leave a stone unsmashed!$"

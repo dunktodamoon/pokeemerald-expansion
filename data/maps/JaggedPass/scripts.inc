@@ -148,7 +148,7 @@ JaggedPass_EventScript_Autumn::
 	end
 
 JaggedPass_Text_EricIntro:
-	.string "MT. CHIMNEY's JAGGED PASS…\p"
+	.string "焰炉山's JAGGED PASS…\p"
 	.string "Now this is what I've always wanted\n"
 	.string "in a mountain.\p"
 	.string "This jagged bumpiness…\n"
@@ -218,7 +218,7 @@ JaggedPass_Text_EthanRematchDefeat:
 
 JaggedPass_Text_EthanPostRematch:
 	.string "I should get an ACRO BIKE from RYDEL\n"
-	.string "in MAUVILLE CITY…$"
+	.string "in 雷泽城…$"
 
 JaggedPass_Text_GruntIntro:
 	.string "Wah!\n"

@@ -1588,7 +1588,7 @@ gTVPokemonLotteryWinnerFlashReportText00::
 	.string "It's exciting!\n"
 	.string "It's dramatic!\p"
 	.string "It's the POKéMON LOTTERY\n"
-	.string "WINNER FLASH REPORT!\p"
+	.string "WINNER 照妖镜 REPORT!\p"
 	.string "Hello! We're coming at you live from\n"
 	.string "the POKéMON LOTTERY CORNER on\l"
 	.string "the ground floor of the LILYCOVE\l"

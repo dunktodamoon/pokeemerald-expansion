@@ -216,21 +216,21 @@ SeafloorCavern_Room9_Movement_Delay32:
 	step_end
 
 SeafloorCavern_Room9_Text_ArchieHoldItRightThere:
-	.string "ARCHIE: Hold it right there.$"
+	.string "东海龙王·敖广: Hold it right there.$"
 
 SeafloorCavern_Room9_Text_ArchieSoItWasYou:
-	.string "ARCHIE: Fufufu…\n"
+	.string "东海龙王·敖广: Fufufu…\n"
 	.string "So it was you, after all.$"
 
 SeafloorCavern_Room9_Text_ArchieBeholdKyogre:
-	.string "ARCHIE: Behold!\p"
+	.string "东海龙王·敖广: Behold!\p"
 	.string "See how beautiful it is, the sleeping\n"
-	.string "form of the ancient POKéMON KYOGRE!\p"
+	.string "form of the ancient POKéMON 蛟龙王!\p"
 	.string "I have waited so long for this day to\n"
 	.string "come…$"
 
 SeafloorCavern_Room9_Text_ArchieYouMustDisappear:
-	.string "ARCHIE: It surprises me, how you've\n"
+	.string "东海龙王·敖广: It surprises me, how you've\n"
 	.string "managed to chase me here.\p"
 	.string "But that's all over now.\p"
 	.string "For the realization of my dream,\n"
@@ -241,33 +241,33 @@ SeafloorCavern_Room9_Text_ArchieDefeat:
 	.string "I lost to a mere child like you?!$"
 
 SeafloorCavern_Room9_Text_ArchieWithThisRedOrb:
-	.string "ARCHIE: Fufufu…\p"
+	.string "东海龙王·敖广: Fufufu…\p"
 	.string "I commend you. I must recognize that\n"
 	.string "you are truly gifted.\p"
 	.string "But!\n"
 	.string "I have this in my possession!\p"
-	.string "With this RED ORB, I can make KYOGRE…$"
+	.string "With this 赤焰珠, I can make 蛟龙王…$"
 
 SeafloorCavern_Room9_Text_RedOrbShinesByItself:
-	.string "The RED ORB suddenly began shining\n"
+	.string "The 赤焰珠 suddenly began shining\n"
 	.string "by itself!$"
 
 SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo:
-	.string "ARCHIE: What?!\p"
+	.string "东海龙王·敖广: What?!\p"
 	.string "I didn't do anything.\n"
-	.string "Why did the RED ORB…\p"
-	.string "Where did KYOGRE go?$"
+	.string "Why did the 赤焰珠…\p"
+	.string "Where did 蛟龙王 go?$"
 
 SeafloorCavern_Room9_Text_ArchieAMessageFromOutside:
-	.string "ARCHIE: Hm? It's a message from our\n"
+	.string "东海龙王·敖广: Hm? It's a message from our\n"
 	.string "members outside…$"
 
 SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
-	.string "ARCHIE: Yes, what is it?\p"
+	.string "东海龙王·敖广: Yes, what is it?\p"
 	.string "Hm…\n"
 	.string "It's raining heavily?\p"
 	.string "Good… That should have happened.\n"
-	.string "That is why we awakened KYOGRE,\l"
+	.string "That is why we awakened 蛟龙王,\l"
 	.string "to realize TEAM AQUA's vision of\l"
 	.string "expanding the sea.\p"
 	.string "What?!\p"
@@ -279,16 +279,16 @@ SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
 	.string "the situation!$"
 
 SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear:
-	.string "ARCHIE: There's something wrong…\p"
-	.string "The RED ORB is supposed to awaken\n"
-	.string "and control KYOGRE…\p"
+	.string "东海龙王·敖广: There's something wrong…\p"
+	.string "The 赤焰珠 is supposed to awaken\n"
+	.string "and control 蛟龙王…\p"
 	.string "But… Why?\n"
-	.string "Why did KYOGRE disappear?\p"
+	.string "Why did 蛟龙王 disappear?\p"
 	.string "Why?!$"
 
 SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
-	.string "MAXIE: What have you wrought?\p"
-	.string "ARCHIE… You've finally awoken KYOGRE,\n"
+	.string "牛魔王: What have you wrought?\p"
+	.string "东海龙王·敖广… You've finally awoken 蛟龙王,\n"
 	.string "haven't you?\p"
 	.string "What will happen to the world if this\n"
 	.string "downpour continues for all eternity?\p"
@@ -296,21 +296,21 @@ SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
 	.string "the deepening sea…$"
 
 SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
-	.string "ARCHIE: W-what?!\n"
+	.string "东海龙王·敖广: W-what?!\n"
 	.string "Don't get all high and mighty with me!\p"
 	.string "Wasn't it you, TEAM MAGMA, that\n"
-	.string "infuriated GROUDON?\p"
-	.string "So long as I have this RED ORB,\n"
-	.string "I should be able to control KYOGRE…\p"
+	.string "infuriated 犼?\p"
+	.string "So long as I have this 赤焰珠,\n"
+	.string "I should be able to control 蛟龙王…\p"
 	.string "I should be able to control it…$"
 
 SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
-	.string "MAXIE: We don't have the time to\n"
+	.string "牛魔王: We don't have the time to\n"
 	.string "argue about it here!\p"
 	.string "Get outside and see for yourself!\p"
 	.string "See if what you've wrought is the\n"
 	.string "world that we desired!$"
 
 SeafloorCavern_Room9_Text_MaxieComeOnPlayer:
-	.string "MAXIE: {PLAYER}, come on, you have\n"
+	.string "牛魔王: {PLAYER}, come on, you have\n"
 	.string "to get out of here, too!$"

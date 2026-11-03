@@ -453,7 +453,7 @@ RusturfTunnel_Text_PeekoGladToSeeYouSafe:
 
 RusturfTunnel_Text_ThankYouLetsGoHomePeeko:
 	.string "PEEKO owes her life to you!\p"
-	.string "They call me MR. BRINEY.\n"
+	.string "They call me 老孙头.\n"
 	.string "And, you are?\p"
 	.string "… … … … … … … …\n"
 	.string "… … … … … … … …\p"
@@ -491,7 +491,7 @@ RusturfTunnel_Text_YouShatteredBoulderTakeHM:
 	.string "I'd like you to have this HM.$"
 
 RusturfTunnel_Text_ExplainStrength:
-	.string "That HM contains STRENGTH.\p"
+	.string "That HM contains 撼山杵.\p"
 	.string "If a muscular POKéMON were to learn\n"
 	.string "that, it would be able to move even\l"
 	.string "large boulders.$"

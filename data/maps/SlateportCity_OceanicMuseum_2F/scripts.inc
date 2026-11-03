@@ -272,7 +272,7 @@ SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts:
 	.string "Yes? If you're looking for STERN,\n"
 	.string "that would be me.\p"
 	.string "Ah! Those must be the parts I ordered\n"
-	.string "from MR. STONE of DEVON.\p"
+	.string "from 李善人 of DEVON.\p"
 	.string "Thank you! That's great!\n"
 	.string "We can prepare for our expedition now.$"
 
@@ -320,7 +320,7 @@ SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
 	.string "We are TEAM AQUA,\n"
 	.string "and we love the sea!\p"
 	.string "And I am TEAM AQUA's leader,\n"
-	.string "ARCHIE!\p"
+	.string "东海龙王·敖广!\p"
 	.string "What makes you interfere with us?\p"
 	.string "…No! You can't be!\n"
 	.string "You're not one of TEAM MAGMA?\p"
@@ -364,7 +364,7 @@ SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
 SlateportCity_OceanicMuseum_2F_Text_RemindsMeOfAbandonedShip:
 	.string "I saw a model of a ship here.\p"
 	.string "It reminded me of the ABANDONED SHIP\n"
-	.string "near DEWFORD TOWN…$"
+	.string "near 武馆镇…$"
 
 SlateportCity_OceanicMuseum_2F_Text_DontRunInMuseum:
 	.string "Don't you dare run around inside\n"
@@ -401,7 +401,7 @@ SlateportCity_OceanicMuseum_2F_Text_HoennModel:
 	.string "“MODEL OF HOENN REGION”\p"
 	.string "It's a miniature diorama of the\n"
 	.string "HOENN region.\p"
-	.string "Where is LITTLEROOT TOWN on this?$"
+	.string "Where is 雾杉驿站 on this?$"
 
 SlateportCity_OceanicMuseum_2F_Text_DeepSeawaterDisplay:
 	.string "It's a display on the flow of seawater.\p"

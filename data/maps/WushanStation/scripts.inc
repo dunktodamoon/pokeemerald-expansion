@@ -125,7 +125,7 @@ WushanStation_Movement_StepSouth:
 	step_end
 
 WushanStation_Text_NameLan:
-	.string "Lan$"
+	.string "南极仙翁$"
 
 WushanStation_Text_NameYou:
 	.string "You$"
@@ -138,7 +138,7 @@ WushanStation_Text_NameGuard:
 
 WushanStation_Text_Intro:
 	.string "The fog is heavy.\p"
-	.string "Ahead is Wushan Station.$"
+	.string "Ahead is 雾杉驿站.$"
 
 WushanStation_Text_LanFirst:
 	.string "You walked out of the fog?\p"
@@ -159,26 +159,26 @@ WushanStation_Text_LanBeforeChoice:
 	.string "this road together.$"
 
 WushanStation_Text_ChoiceTreecko:
-	.string "Treecko$"
+	.string "野猪$"
 
 WushanStation_Text_ChoiceTorchic:
-	.string "Torchic$"
+	.string "海毛虫$"
 
 WushanStation_Text_ChoiceMudkip:
-	.string "Mudkip$"
+	.string "巨蛙$"
 
 WushanStation_Text_LanTreecko:
-	.string "Treecko. Steady.\n"
+	.string "野猪. Steady.\n"
 	.string "It can bear the fog.\p"
 	.string "Look after it.$"
 
 WushanStation_Text_LanTorchic:
-	.string "Torchic. Impatient,\n"
+	.string "海毛虫. Impatient,\n"
 	.string "and full of fire.\p"
 	.string "Look after it.$"
 
 WushanStation_Text_LanMudkip:
-	.string "Mudkip. Calm.\n"
+	.string "巨蛙. Calm.\n"
 	.string "You can count on it.\p"
 	.string "Look after it.$"
 
@@ -188,14 +188,14 @@ WushanStation_Text_ReceivedPartner:
 WushanStation_Text_LanPointNorth:
 	.string "It's with you.\p"
 	.string "North of here is the\n"
-	.string "Wushan Outskirts.\p"
+	.string "雾杉外缘.\p"
 	.string "Don't wander in the fog.\p"
 	.string "I'll be here when you\n"
 	.string "come back.$"
 
 WushanStation_Text_LanRepeat:
-	.string "The Outskirts are\n"
-	.string "to the north.\p"
+	.string "雾杉外缘\n"
+	.string "is to the north.\p"
 	.string "If you can't win,\n"
 	.string "come back first.$"
 
@@ -204,8 +204,8 @@ WushanStation_Text_You:
 	.string "the field guide will record.\p"
 	.string "If you're tired, save.\n"
 	.string "Don't force it.\p"
-	.string "The fog on the Wushan\n"
-	.string "Outskirts lifts slowly.\p"
+	.string "The fog on 雾杉外缘\n"
+	.string "lifts slowly.\p"
 	.string "Walk a bit. Look around.$"
 
 WushanStation_Text_Doudou:
@@ -218,7 +218,7 @@ WushanStation_Text_GuardStop:
 	.string "Stop.\p"
 	.string "No partner, no leaving\n"
 	.string "through this door.\p"
-	.string "Go find Lan.$"
+	.string "Go find 南极仙翁.$"
 
 WushanStation_Text_GuardPass:
 	.string "You have a partner?\p"

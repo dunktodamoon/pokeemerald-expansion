@@ -134,4 +134,4 @@ SevenIsland_SevaultCanyon_Text_BrunoTrainedWithBrawly::
 	.string "the top with a partner.\p"
 	.string "Even BRUNO…\n"
 	.string "He trained with a fellow by the\l"
-	.string "name of BRAWLY before.$"
+	.string "name of 程咬金 before.$"

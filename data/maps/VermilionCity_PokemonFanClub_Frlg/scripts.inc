@@ -180,7 +180,7 @@ VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher::
 	.string "Exchange that for a BICYCLE\n"
 	.string "free of charge!\p"
 	.string "Don't worry, my favorite FEAROW\n"
-	.string "will FLY me anywhere I need to go.\p"
+	.string "will 御风符 me anywhere I need to go.\p"
 	.string "So, I have no need for a BICYCLE.\p"
 	.string "I hope you like cycling!$"
 

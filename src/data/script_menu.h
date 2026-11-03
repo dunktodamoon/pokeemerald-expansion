@@ -265,9 +265,9 @@ static const struct MenuAction MultichoiceList_UnusedAshVendor[] =
 
 static const struct MenuAction MultichoiceList_GameCornerDolls[] =
 {
-    {COMPOUND_STRING("TREECKO DOLL 1,000 COINS")},
-    {COMPOUND_STRING("TORCHIC DOLL 1,000 COINS")},
-    {COMPOUND_STRING("MUDKIP DOLL   1,000 COINS")},
+    {COMPOUND_STRING("野猪 DOLL 1,000 COINS")},
+    {COMPOUND_STRING("海毛虫 DOLL 1,000 COINS")},
+    {COMPOUND_STRING("巨蛙 DOLL   1,000 COINS")},
     {gText_Exit},
 };
 
@@ -775,8 +775,8 @@ static const struct MenuAction MultichoiceList_BattleTowerFeelings[] =
 static const struct MenuAction MultichoiceList_WheresRayquaza[] =
 {
     {COMPOUND_STRING("CAVE OF ORIGIN")},
-    {COMPOUND_STRING("MT. PYRE")},
-    {COMPOUND_STRING("SKY PILLAR")},
+    {COMPOUND_STRING("祭魂山")},
+    {COMPOUND_STRING("通天柱")},
     {COMPOUND_STRING("Don't remember")},
 };
 
