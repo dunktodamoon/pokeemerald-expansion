@@ -168,7 +168,9 @@ enum ContestCategories
 #define WONDER_NEWS_BODY_TEXT_LINES 10
 #define TYPE_NAME_LENGTH 8
 #define ABILITY_NAME_LENGTH 16
-#define TRAINER_NAME_LENGTH 10
+// Encoded bytes, not Unicode characters. Han is two bytes (F8/F9 + glyph).
+// 东海龙王·敖广 is 6 Han plus U+00B7, 13 bytes before EOS.
+#define TRAINER_NAME_LENGTH 13
 #define CODE_NAME_LENGTH 11
 
 #define MAX_STAMP_CARD_STAMPS 7
