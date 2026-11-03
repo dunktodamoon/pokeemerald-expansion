@@ -349,6 +349,16 @@
       "y": 12,
       "respawn_map": "MAP_SIX_ISLAND_POKEMON_CENTER_1F",
       "respawn_npc": "LOCALID_SIX_ISLAND_NURSE"
+    },
+    {
+      "id": "HEAL_LOCATION_WUSHAN_STATION",
+      "map": "MAP_WUSHAN_STATION",
+      "x": 7,
+      "y": 8,
+      "respawn_map": "MAP_WUSHAN_STATION",
+      "respawn_npc": "LOCALID_NONE",
+      "respawn_x": 7,
+      "respawn_y": 8
     }
   ]
 }

@@ -9323,6 +9323,28 @@
       "border_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa_Frlg/border.bin",
       "blockdata_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa_Frlg/map.bin",
       "layout_version": "frlg"
+    },
+    {
+      "id": "LAYOUT_WUSHAN_STATION",
+      "name": "WushanStation_Layout",
+      "width": 14,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/WushanStation/border.bin",
+      "blockdata_filepath": "data/layouts/WushanStation/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_WUSHAN_OUTSKIRTS",
+      "name": "WushanOutskirts_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/WushanOutskirts/border.bin",
+      "blockdata_filepath": "data/layouts/WushanOutskirts/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

@@ -1630,6 +1630,14 @@
       "y": 4,
       "width": 1,
       "height": 1
+    },
+    {
+      "id": "MAPSEC_WUSHAN_STATION",
+      "name": "WUSHAN STATION"
+    },
+    {
+      "id": "MAPSEC_WUSHAN_OUTSKIRTS",
+      "name": "WUSHAN OUTSKIRTS"
     }
   ]
 }

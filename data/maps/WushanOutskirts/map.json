@@ -1,0 +1,36 @@
+{
+  "id": "MAP_WUSHAN_OUTSKIRTS",
+  "name": "WushanOutskirts",
+  "layout": "LAYOUT_WUSHAN_OUTSKIRTS",
+  "music": "MUS_ROUTE101",
+  "region": "REGION_HOENN",
+  "region_map_section": "MAPSEC_WUSHAN_OUTSKIRTS",
+  "requires_flash": false,
+  "weather": "WEATHER_FOG_HORIZONTAL",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 10,
+      "y": 19,
+      "elevation": 3,
+      "dest_map": "MAP_WUSHAN_STATION",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 19,
+      "elevation": 3,
+      "dest_map": "MAP_WUSHAN_STATION",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}
